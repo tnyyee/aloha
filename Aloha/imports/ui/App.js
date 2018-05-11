@@ -32,21 +32,6 @@ class App extends Component {
     };
   }
 
-  appProps() {
-    <div className="App">
-
-
-        <Switch>
-          <Route exact name="index" path="/" component={App} />
-          <Route path="/search" component={Search} />
-          <Route path="/profile" component={Profile} />
-          <Route path="/task" component={Task}  />
-
-        </Switch>
-
-    </div>
-  }
-
 
   handleSubmit(event) {
     event.preventDefault();
@@ -76,6 +61,7 @@ class App extends Component {
   }
 
   render() {
+    console.log("Hi")
     return (
 
           <div className="container">
@@ -94,14 +80,7 @@ class App extends Component {
                     <ul>
                       {this.renderTasks()}
                     </ul>
-                    <div>
-                    {this.appProps()}
-                    </div>
-
           </div>
-
-
-
 
 
     );
