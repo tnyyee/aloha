@@ -4,5 +4,5 @@ import {withHistory, Link} from 'react-router-dom';
 
 export const Login = () =>
   <div>
-  <p>this works</p>
+  <p>Login works</p>
   </div>
