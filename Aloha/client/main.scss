@@ -58,18 +58,43 @@ $break-small: 700px;
     }
 
     //******************** DASHBOARD *****************************
-    .large_button{
-      background-color: $primary-purple;
-      color: $white;
-      border:1px solid $white;
-      border-radius: $radius_big;
-      font-size:$button_big_font_size;
-      font-weight: $regular;
-      width:273px;
-      height:52px;
-      margin-top: 83px;
-      text-align: center;
+    div{
+      .dashboard_section{
+        width:100%;
+      }
+      #first_section{
+        .large_button{
+          text-align: center;
+          background-color: $primary-purple;
+          color: $white;
+          border:1px solid $white;
+          border-radius: $radius_big;
+          font-size:$button_big_font_size;
+          font-weight: $regular;
+          width:273px;
+          height:52px;
+          margin-top: 83px;
+        }
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 4px;
+
+          .column {
+            box-sizing: border-box;
+            flex: 100%;
+            max-width: 100%;
+            padding: 0 4px;
+
+            img {
+                vertical-align: middle;
+            }
+            #second_img{
+              padding-left: 4px;
+            }
+          }
+        }
+      }
     }
   }
-
 }
