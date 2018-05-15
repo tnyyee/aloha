@@ -36,6 +36,7 @@ $break-small: 700px;
   @media screen and (max-width: $break-small) {
   body{
     background-color: $primary-purple;
+    color: white;
 
     h1{
       text-align:center;
@@ -70,6 +71,22 @@ $break-small: 700px;
       margin-top: 83px;
       text-align: center;
     }
+
+    //******************** Thread *****************************
+    #burger{
+      width: 70px;
+      padding: 50px;
+    }
+    .rubrik{
+      font-size: 100px;
+      color: white;
+    }
+    .first{
+      background-color: $primary-purple;
+      width: 100%;
+      height: 300px;
+    }
+
   }
 
 }
