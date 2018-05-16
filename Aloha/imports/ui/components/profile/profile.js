@@ -3,6 +3,6 @@ import {withHistory, Link} from 'react-router-dom';
 
 export const Profile = () =>
   <div>
-    this works
+    Profile works
     <Link to="/login"> Press here </Link>
   </div>
