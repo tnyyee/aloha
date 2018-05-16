@@ -12,17 +12,13 @@ export const Dashboard = () =>
     <button className="large_button">Alla trådar</button>
     <h2>Aktuella trådar</h2>
 
-  <div className="row">
-      <div className="column">
-        <img src="vectors/dashboard/cam_ana_skandal.svg"/>
-        <img src="vectors/dashboard/knytblus.svg" id="second_img"/>
-        <img src=""></img>
-      </div>
-      <div className="column">
-        <img src="vectors/dashboard/stora_traden_om_aktier.svg"/>
-        <img src="vectors/dashboard/stora_traden_om_java.svg"/>
-        <img src=""></img>
-      </div>
+    <div class="grid-container">
+          <img src="jpg/dashboard/cam_ana_skandal.jpg"/>
+          <img src="jpg/dashboard/knytblus.jpg" id="second_img"/>
+          <img src=""></img>
+          <img src="jpg/dashboard/stora_traden_om_aktier.jpg"/>
+          <img src="jpg/dashboard/stora_traden_om_java.jpg"/>
+          <img src=""></img>
     </div>
 
   </section>
