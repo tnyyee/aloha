@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="17px" viewBox="0 0 26 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>meny</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard" transform="translate(-25.000000, -22.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="meny" transform="translate(25.000000, 22.000000)">
+                <path d="M26,8 C26,8.56666667 25.48,9 24.8485714,9 L1.15142857,9 C0.52,9 0,8.56666667 0,8 C0,7.43333333 0.52,7 1.15142857,7 L24.8114286,7 C25.48,7 26,7.43333333 26,8 Z" id="Shape"></path>
+                <path d="M26,16 C26,16.5666667 25.48,17 24.8485714,17 L1.15142857,17 C0.52,17 0,16.5666667 0,16 C0,15.4333333 0.52,15 1.15142857,15 L24.8114286,15 C25.48,15 26,15.4333333 26,16 Z" id="Shape"></path>
+                <path d="M26,1 C26,1.56666667 25.48,2 24.8485714,2 L1.15142857,2 C0.52,2 0,1.56666667 0,1 C0,0.433333333 0.52,0 1.15142857,0 L24.8114286,0 C25.48,0 26,0.433333333 26,1 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
