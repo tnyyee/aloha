@@ -8,7 +8,7 @@ import { getUser } from '../api/get-user.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Redirect } from 'react-router-dom';
 import { getUser as getU } from '../api/get-user.js';
-
+import ReactTimeout from 'react-timeout';
 // copy from
 
 
@@ -33,15 +33,20 @@ class App extends Component {
     super(props);
     // Session.set('email', '')
     this.state = {
-      hideCompleted: false,
-      email: Session.get('email')
+      // hideCompleted: false,
+      // email: Session.get('email'),
+      render: false //Set render state to false
     };
   }
 
+  componentDidMount() {
+    setTimeout(function() { //Start the timer
+        this.setState({render: true}) //After 0.2 seconds, set render to true
+    }.bind(this), 200)
+  }
 
   handleSubmit(event) {
     event.preventDefault();
-
     // Find the text field via the React ref
     const text = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
 
@@ -68,83 +73,41 @@ class App extends Component {
 
 
   render() {
-    return (
-      <Router>
+
+    let currentUser = this.props.currentUser;
+
+    if(this.state.render) {
+      if(currentUser) {
+        return (
+          <Router>
+            <div>
+              <Route exact path="/" component={Dashboard}/>
+              <Route exact path="/login" component={Login}/>
+              <Route exact path="/profile" component={Profile}/>
+              <Route path="/search" component={Search}/>
+              <Route path="/searchresult" component={SearchResult}/>
+              <Route path="/thread" component={Thread}/>
+            </div>
+          </Router>
+        );
+      }
+      else if(!currentUser){
+        return (
+          <Router>
+            <div>
+              <Route path="/" component={Login}/>
+            </div>
+          </Router>
+        );
+      }
+    }
+    else {
+      return (
         <div>
-
-          <Route exact path="/" render={() => (
-            console.log('Login', this.props.currentUser),
-            this.props.currentUser ? (
-
-              <Redirect to="/dashboard"/>
-            ) : (
-              <Login/>
-              // <div>
-              //   <h1>You need to login</h1>
-              // </div>
-            )
-          )}/>
-
-          <Route path="/dashboard" render={() => (
-            console.log('Dashboard', this.props.currentUser),
-            this.props.currentUser ? (
-              <Dashboard/>
-            ) : (
-              <div>
-                <h1>You need to login</h1>
-              </div>
-            )
-          )}/>
-
-          <Route path="/profile" render={() => (
-            console.log('Profile', this.props.currentUser),
-            this.props.currentUser ? (
-              <Profile/>
-            ) : (
-              <div>
-                <h1>You need to login</h1>
-              </div>
-            )
-          )}/>
-          <Route path="/search" render={() => (
-            this.props.currentUser ? (
-              <Search/>
-            ) : (
-              <div>
-                <h1>You need to login</h1>
-              </div>
-            )
-          )}/>
-          <Route path="/searchresult" render={() => (
-            this.props.currentUser ? (
-              <SearchResult/>
-            ) : (
-              <div>
-                <h1>You need to login</h1>
-              </div>
-            )
-          )}/>
-          <Route path="/thread" render={() => (
-            this.props.currentUser ? (
-              <Thread/>
-            ) : (
-              <div>
-                <h1>You need to login</h1>
-              </div>
-            )
-          )}/>
-          <Route path="/task" render={() => (
-            this.props.currentUser ? (
-              <Task/>
-            ) : (
-              <div>
-                <h1>You need to login</h1>
-              </div>
-            )
-          )}/>
+           <h1> </h1>
         </div>
-      </Router>
-    );
+      );
+    }
   }
 }
 
