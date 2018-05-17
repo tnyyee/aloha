@@ -13,8 +13,11 @@
     "react-dom": "^16.3.1",
     "react-router-dom": "^4.2.2",
     "react-timeout": "^1.1.1"
+<<<<<<< HEAD
   },
   "devDependencies": {
     "css-loader": "^0.28.11"
+=======
+>>>>>>> 77c8598e1fe3d7981f204d3e77b04e2159f26161
   }
 }

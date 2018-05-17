@@ -6,6 +6,9 @@ import AccountsUIWrapper from '../../AccountsUIWrapper.js';
 import { Session } from 'meteor/session';
 import { getUser } from '../../../api/get-user.js';
 
+import { Template } from 'meteor/templating';
+import { Blaze } from 'meteor/blaze';
+
 class Login extends React.Component {
 
   constructor(props) {
@@ -19,22 +22,33 @@ class Login extends React.Component {
     return (
       <div className="container">
         <header>
-          <h1>Welcome to ALOHA</h1>
-          <h1>{this.props.email}</h1>
+          <h1>ALOHA!</h1>
 
-          <h1>{ this.props.email ?
-           this.props.email : ''}</h1>
 
-          <AccountsUIWrapper />
+
+          <h2>{ this.props.email ?
+             this.props.email : ''}</h2>
+
+
+           <h2><AccountsUIWrapper /></h2>
           {
             // this.props.currentUser ?
           //   // <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
           //   // </form> : ''
           }
+
         </header>
         <ul>
           {/*this.renderTasks()*/}
         </ul>
+
+        <div class="footer">
+
+          <img src="vectors/pineapple.svg"/>
+
+        </div>
+
+
       </div>
     );
   }
