@@ -5,9 +5,11 @@ export function getUser(user){
   //skicka url till fetchEmail,
   const url = 'https://api.github.com/user'
 
-  //hämta accesstoken
-  const at = user.services.github.accessToken;
-  fetchEmail(url, at);
+  if(JSON.Stringify(user.services.github.accessToken.property) != 'undefined') {
+    //hämta accesstoken
+    const at = user.services.github.accessToken;
+    fetchEmail(url, at);
+  }
 }
 
 function fetchEmail(url, at){

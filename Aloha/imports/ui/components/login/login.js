@@ -55,9 +55,9 @@ class Login extends React.Component {
 }
 
 export default withTracker(() => {
-  if (Meteor.user()) {
-    let user = getUser(Meteor.user());
-  }
+  // if (Meteor.user()) {
+  //   let user = getUser(Meteor.user());
+  // }
   return {
     // tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
     // incompleteCount: Tasks.find({ checked: { $ne: true } }).count(),

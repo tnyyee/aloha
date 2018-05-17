@@ -57,6 +57,8 @@ class App extends Component {
       username: Meteor.user().username,  // username of logged in user
     });
 
+
+
     // Clear form
     ReactDOM.findDOMNode(this.refs.textInput).value = '';
   }
@@ -112,14 +114,15 @@ class App extends Component {
 }
 
 export default withTracker(() => {
-  if (Meteor.user()) {
-    let user = getU(Meteor.user());
-  }
+  // if (Meteor.user()) {
+  //   let user = getU(Meteor.user());
+  // }
   const handle = Meteor.subscribe();
   return {
     // tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
     // incompleteCount: Tasks.find({ checked: { $ne: true } }).count(),
-    currentUser: Meteor.user(),
+    currentUser: Meteor.user()
+
     // this.props.theData;
     //const email: Session.email;
     //const email Session.get('email');
