@@ -1,129 +1,158 @@
-body {
-  font-family: sans-serif;
-  background-color: #462445;
-  background-image: linear-gradient(to bottom, #462445, #462445 100%);
-  background-attachment: fixed;
-
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  padding: 0;
-  margin: 0;
-
-  font-size: 14px;
-}
-p{
-  color: white;
-  font-size: 30px;
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  min-height: 100%;
-  background: white;
-}
-
-header {
-  background: #e1e5f0;
-  background-image: linear-gradient(to bottom, white, white 100%);
-  padding: 20px 15px 15px 15px;
-  position: relative;
-}
-
-#login-buttons {
-  display: block;
-}
-
-h1 {
-  font-size: 1.5em;
-  margin: 0;
-  margin-bottom: 10px;
-  display: inline-block;
-  margin-right: 1em;
-}
-
-form {
-  margin-top: 10px;
-  margin-bottom: -10px;
-  position: relative;
-}
-
-.new-task input {
-  box-sizing: border-box;
-  padding: 10px 0;
-  background: transparent;
-  border: none;
-  width: 100%;
-  padding-right: 80px;
-  font-size: 1em;
-}
-
-.new-task input:focus{
-  outline: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  background: white;
-}
-
-.delete {
-  float: right;
-  font-weight: bold;
-  background: none;
-  font-size: 1em;
-  border: none;
-  position: relative;
-}
-
-li {
-  position: relative;
-  list-style: none;
-  padding: 15px;
-  border-bottom: #eee solid 1px;
-}
-
-li .text {
-  margin-left: 10px;
-}
-
-li.checked {
-  color: #888;
-}
-
-li.checked .text {
-  text-decoration: line-through;
-}
-
-li.private {
-  background: #eee;
-  border-color: #ddd;
-}
-
-header .hide-completed {
-  float: right;
-}
-
-.toggle-private {
-  margin-left: 5px;
-}
-
-@media (max-width: 600px) {
-  li {
-    padding: 12px 15px;
-  }
-
-  .search {
-    width: 150px;
-    clear: both;
-  }
-
-  .new-task input {
-    padding-bottom: 5px;
-  }
-}
+@media screen and (max-width: 700px) {
+  body {
+    background-color: #311631;
+    color: white; }
+    body .burger {
+      padding: 15px; }
+    body .pineapple {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-top: 45px; }
+    body h1 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #ffffff;
+      margin: 0; }
+    body h2 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body div .dashboard_section {
+      width: 100%; }
+    body div #first_section .large_button {
+      text-align: center;
+      background-color: #311631;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 9px;
+      font-size: 20px;
+      font-weight: 400;
+      width: 273px;
+      height: 52px;
+      margin-top: 83px; }
+    body div #first_section .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+      padding: 10px; }
+    body div #first_section .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0 4px; }
+      body div #first_section .row .column {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 4px; }
+        body div #first_section .row .column img {
+          vertical-align: middle; }
+        body div #first_section .row .column #second_img {
+          padding-left: d 4px; }
+    body #firstSection {
+      width: 100%;
+      margin: 0; }
+      body #firstSection .rubrik {
+        text-align: center;
+        margin-top: 30px; }
+      body #firstSection #skapadtradav {
+        text-align: center;
+        margin: 0px;
+        margin-top: -10px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 100; }
+      body #firstSection #lovenbergText {
+        margin-top: 40px;
+        font-weight: 400; }
+      body #firstSection .person1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+      body #firstSection .small_button {
+        font-size: 14px;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        font-weight: 400;
+        text-align: center;
+        background-color: #311631;
+        width: 81px;
+        height: 21px;
+        color: #ffffff;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto; }
+      body #firstSection .small_button:hover {
+        border: 3px solid #ffffff !important; }
+      body #firstSection #fraga {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        margin-left: 32px;
+        margin-right: 26px;
+        line-height: 22px;
+        margin-top: 35px;
+        margin-bottom: 30px; }
+    body .bryt {
+      background-color: #673653;
+      height: 15px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; }
+    body .thread_sections .thread_people_photo {
+      border: 2px solid #ffffff;
+      width: 63px;
+      height: 63px;
+      border-radius: 100%;
+      margin-top: 19px;
+      margin-left: 8px;
+      margin-right: 17px;
+      float: left; }
+    body .thread_sections .namn {
+      font-size: 16px;
+      font-weight: 700;
+      float: left;
+      margin-top: 32px; }
+    body .thread_sections .stad {
+      font-size: 14px;
+      font-weight: 400;
+      float: left;
+      margin-left: -35px;
+      padding-top: 22px; }
+    body .thread_sections .check {
+      float: right;
+      margin-right: 10px;
+      margin-top: 18px; }
+    body .thread_sections .betyg {
+      font-size: 16px;
+      font-weight: 300;
+      float: right;
+      margin-top: 33px;
+      margin-right: -11px; }
+    body .thread_sections .cross {
+      float: right;
+      margin-top: 26px;
+      margin-right: -11px; }
+    body .thread_sections .svar {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 45px;
+      margin-right: 50px;
+      margin-bottom: 20px; } }
