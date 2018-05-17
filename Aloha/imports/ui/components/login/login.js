@@ -42,7 +42,7 @@ class Login extends React.Component {
           {/*this.renderTasks()*/}
         </ul>
 
-        <div class="footer">
+        <div className="pineapple">
 
           <img src="vectors/pineapple.svg"/>
 
