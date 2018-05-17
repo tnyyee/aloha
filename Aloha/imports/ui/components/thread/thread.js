@@ -2,14 +2,29 @@ import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
 
-// function myFunction () {
-//   console.log ("Hello world!")
+// componentWillMount() {
+//   this.state = {
+//       persons: [
+//         {
+//           name: 'hej',
+//           city: 'Umeå'
+//         },
+//         {
+//           name: 'hej2',
+//           city: 'Umeå'
+//         },
+//       ]
+//   }
 // }
 
 export const Thread = () =>
+  //
+  // (
+  //   this.state.persons
+  //   ... iterera ut..
+  // )
 
     <div>
-
       <section id="firstSection" className="thread_sections">
         <img className="burger" src="vectors/meny.svg" />
         <h2 className="rubrik">Sälja eller inte sälja?</h2>
@@ -18,7 +33,7 @@ export const Thread = () =>
 
         <img className="person1" src="vectors/thread/person1_thread.svg" />
         <button className="small_button">Följ +</button>
-        <p id="question">
+        <p id="fraga">
         Jag har pengar sparade i en fond sedan länge. Jag har hela
         tiden tänkt att jag vill använda pengarna som en del i en
         kontantinsats till en lägenhet. Det betyder att jag vill
@@ -26,7 +41,7 @@ export const Thread = () =>
 
         Fonden har gått väldigt bra och jag undrar därför om jag
         borde sälja andelarna nu, innan börsen eventuellt går ner,
-        eftersom vi befinner oss i en högkonjuntur?
+        eftersom vi befinner oss i en högkonjunktur?
         </p>
 
       </section>
@@ -35,8 +50,11 @@ export const Thread = () =>
 
       <section id="secondSection" className="thread_sections">
         <img className="thread_people_photo" src="vectors/thread/person3_thread.svg"/>
-        <p className="namn">Alice</p><br/>
-        <p className="stad">Umeå Sverige</p>
+
+        <div className="grid-container1">
+          <div className="namn">Alice</div>
+          <div className="stad">Umeå Sverige</div>
+        </div>
 
         <img className="check" src="vectors/thread/green_check.svg"/><br/>
         <p className="betyg">2</p><br/><br/>
@@ -54,8 +72,11 @@ export const Thread = () =>
 
       <section id="thirdSection" className="thread_sections">
         <img className="thread_people_photo" src="vectors/thread/person4_thread.svg"/>
-        <p className="namn">Elijah</p><br/>
-        <p className="stad">Stockholm Sverige</p>
+
+        <div className="grid-container1">
+          <div className="namn">Elijah</div>
+          <div className="stad">Stockholm Sverige</div>
+        </div>
 
         <img className="check" src="vectors/thread/green_check.svg"/><br/>
         <p className="betyg">0</p><br/><br/>
@@ -72,8 +93,11 @@ export const Thread = () =>
 
       <section id="fourthSection" className="thread_sections">
         <img className="thread_people_photo" src="vectors/thread/person5_thread.svg"/>
-        <p className="namn">AnnaVest</p><br/>
-        <p className="stad">Gävle Sverige</p>
+
+        <div className="grid-container1">
+          <div className="namn">AnnaVest</div>
+          <div className="stad">Göteborg Sverige</div>
+        </div>
 
         <img className="check" src="vectors/thread/green_check.svg"/><br/>
         <p className="betyg">0</p><br/><br/>
@@ -92,8 +116,11 @@ export const Thread = () =>
 
       <section id="fifthSection" className="thread_sections">
         <img className="thread_people_photo" src="vectors/thread/person6_thread.svg"/>
-        <p className="namn">Tanja</p><br/>
-        <p className="stad">Malmö Sverige</p>
+
+        <div className="grid-container1">
+          <div className="namn">Tanja</div>
+          <div className="stad">Malmö Sverige</div>
+        </div>
 
         <img className="check" src="vectors/thread/green_check.svg"/><br/>
         <p className="betyg">-1</p><br/><br/>
@@ -105,6 +132,8 @@ export const Thread = () =>
         </p>
 
       </section>
+
+      <button className="small_button">+</button>
 
 
       <img className="pineapple" src="vectors/pineapple.svg" />

@@ -62,6 +62,20 @@
           vertical-align: middle; }
         body div #first_section .row .column #second_img {
           padding-left: d 4px; }
+    body .small_button {
+      font-size: 14px;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      font-weight: 400;
+      text-align: center;
+      background-color: #311631;
+      width: 81px;
+      height: 21px;
+      color: #ffffff;
+      display: block;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto; }
     body #firstSection {
       width: 100%;
       margin: 0; }
@@ -82,22 +96,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto; }
-      body #firstSection .small_button {
-        font-size: 14px;
-        border: 1px solid #ffffff;
-        border-radius: 5px;
-        font-weight: 400;
-        text-align: center;
-        background-color: #311631;
-        width: 81px;
-        height: 21px;
-        color: #ffffff;
-        display: block;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto; }
-      body #firstSection .small_button:hover {
-        border: 3px solid #ffffff !important; }
       body #firstSection #fraga {
         font-size: 16px;
         font-weight: 300;
@@ -124,35 +122,60 @@
       margin-right: 17px;
       float: left; }
     body .thread_sections .namn {
+      grid-area: namn; }
+    body .thread_sections .stad {
+      grid-area: stad; }
+    body .thread_sections .grid-container1 {
+      display: grid;
+      float: left;
+      grid-template-areas: 'namn namn' 'stad stad'; }
+    body .thread_sections .namn {
       font-size: 16px;
       font-weight: 700;
-      float: left;
       margin-top: 32px; }
     body .thread_sections .stad {
       font-size: 14px;
       font-weight: 400;
-      float: left;
-      margin-left: -35px;
-      padding-top: 22px; }
+      padding-top: 5px; }
+    body .thread_sections .check {
+      grid-area: check; }
+    body .thread_sections .betyg {
+      grid-area: betyg; }
+    body .thread_sections .cross {
+      grid-area: cross; }
+    body .thread_sections .grid-container2 {
+      display: grid;
+      float: right;
+      grid-template-areas: 'check' 'betyg' 'cross'; }
     body .thread_sections .check {
       float: right;
       margin-right: 10px;
-      margin-top: 18px; }
+      margin-top: 25px; }
     body .thread_sections .betyg {
       font-size: 16px;
       font-weight: 300;
       float: right;
-      margin-top: 33px;
+      margin-top: 38px;
       margin-right: -11px; }
     body .thread_sections .cross {
       float: right;
-      margin-top: 26px;
+      margin-top: 30px;
       margin-right: -11px; }
     body .thread_sections .svar {
       font-size: 14px;
       font-weight: 300;
       text-align: left;
       margin-left: 20px;
-      margin-top: 45px;
+      margin-top: 55px;
       margin-right: 50px;
-      margin-bottom: 20px; } }
+      margin-bottom: 50px; }
+    body .thread_sections #cirkel {
+      display: block;
+      border: 2px solid white;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px; }
+    body .thread_sections #cirkel span {
+      position: absolute;
+      top: -7px;
+      left: 2px; } }

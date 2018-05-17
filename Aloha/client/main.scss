@@ -121,6 +121,22 @@ $break-small: 700px;
     //******************** Thread *****************************
 
 
+    .small_button{
+      font-size: $p_small_font_size;
+      border:1px solid $white;
+      border-radius: $radius_small;
+      font-weight: $regular;
+      text-align: center;
+      background-color: $primary-purple;
+      width:81px;
+      height:21px;
+      color: $white;
+      display: block;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
 
       #firstSection{
         width: 100%;
@@ -149,25 +165,7 @@ $break-small: 700px;
           margin-right: auto;
         }
 
-        .small_button{
-          font-size: $p_small_font_size;
-          border:1px solid $white;
-          border-radius: $radius_small;
-          font-weight: $regular;
-          text-align: center;
-          background-color: $primary-purple;
-          width:81px;
-          height:21px;
-          color: $white;
-          display: block;
-          margin-top: 20px;
-          margin-left: auto;
-          margin-right: auto;
 
-        }
-        .small_button:hover{
-          border: 3px solid $white !important;
-        }
 
         #fraga{
           font-size: $p_font_size;
@@ -203,38 +201,61 @@ $break-small: 700px;
         float: left;
       }
 
+      .namn { grid-area: namn; }
+      .stad { grid-area: stad; }
+
+      .grid-container1 {
+        display: grid;
+        float: left;
+        grid-template-areas:
+          'namn namn'
+          'stad stad';
+      }
+
       .namn{
         font-size: $p_font_size;
         font-weight: $bold;
-        float: left;
+        //float: left;
         margin-top: 32px;
       }
 
       .stad{
         font-size: $p_small_font_size;
         font-weight: $regular;
-        float: left;
-        margin-left: -35px;
-        padding-top: 22px;
+        //float: left;
+        padding-top: 5px;
+      }
+
+      .check { grid-area: check; }
+      .betyg { grid-area: betyg; }
+      .cross { grid-area: cross; }
+
+      .grid-container2 {
+        display: grid;
+        float: right;
+        grid-template-areas:
+          'check'
+          'betyg'
+          'cross';
       }
 
       .check{
         float: right;
         margin-right: 10px;
-        margin-top: 18px;
+        margin-top: 25px;
       }
 
       .betyg{
         font-size: $p_font_size;
         font-weight: $light;
         float: right;
-        margin-top: 33px;
+        margin-top: 38px;
         margin-right: -11px;
       }
 
       .cross{
         float: right;
-        margin-top: 26px;
+        margin-top: 30px;
         margin-right: -11px;
       }
 
@@ -243,9 +264,23 @@ $break-small: 700px;
         font-weight: $light;
         text-align:left;
         margin-left: 20px;
-        margin-top: 45px;
+        margin-top: 55px;
         margin-right: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
+      }
+
+      #cirkel{
+        display: block;
+        border: 2px solid white;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+      }
+
+      #cirkel span {
+        position: absolute;
+        top: -7px;
+        left: 2px;
       }
 
     }
