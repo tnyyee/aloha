@@ -69,10 +69,24 @@
           vertical-align: middle; }
         body div #first_section .row .column #second_img {
           padding-left: d 4px; }
+    body .small_button {
+      font-size: 14px;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      font-weight: 400;
+      text-align: center;
+      background-color: #311631;
+      width: 81px;
+      height: 21px;
+      color: #ffffff;
+      display: block;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto; }
     body #firstSection {
       width: 100%;
       margin: 0; }
-      body #firstSection .rubrik {
+      body #firstSection .rubrik_thread {
         text-align: center;
         margin-top: 30px; }
       body #firstSection #skapadtradav {
@@ -89,22 +103,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto; }
-      body #firstSection .small_button {
-        font-size: 14px;
-        border: 1px solid #ffffff;
-        border-radius: 5px;
-        font-weight: 400;
-        text-align: center;
-        background-color: #311631;
-        width: 81px;
-        height: 21px;
-        color: #ffffff;
-        display: block;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto; }
-      body #firstSection .small_button:hover {
-        border: 3px solid #ffffff !important; }
       body #firstSection #fraga {
         font-size: 16px;
         font-weight: 300;
@@ -131,38 +129,43 @@
       margin-right: 17px;
       float: left; }
     body .thread_sections .namn {
+      grid-area: namn; }
+    body .thread_sections .stad {
+      grid-area: stad; }
+    body .thread_sections .grid-container1 {
+      display: grid;
+      float: left;
+      grid-template-areas: 'namn namn' 'stad stad'; }
+    body .thread_sections .namn {
       font-size: 16px;
       font-weight: 700;
-      float: left;
       margin-top: 32px; }
     body .thread_sections .stad {
       font-size: 14px;
       font-weight: 400;
-      float: left;
-      margin-left: -35px;
-      padding-top: 22px; }
+      padding-top: 5px; }
     body .thread_sections .check {
       float: right;
       margin-right: 10px;
-      margin-top: 18px; }
+      margin-top: 25px; }
     body .thread_sections .betyg {
       font-size: 16px;
       font-weight: 300;
       float: right;
-      margin-top: 33px;
+      margin-top: 38px;
       margin-right: -11px; }
     body .thread_sections .cross {
       float: right;
-      margin-top: 26px;
+      margin-top: 30px;
       margin-right: -11px; }
     body .thread_sections .svar {
       font-size: 14px;
       font-weight: 300;
       text-align: left;
       margin-left: 20px;
-      margin-top: 45px;
+      margin-top: 55px;
       margin-right: 50px;
-      margin-bottom: 20px; }
+      margin-bottom: 50px; }
     body div #welcomeText {
       font-size: 16px;
       font-weight: 300;
@@ -193,4 +196,33 @@
       height: 15px; }
     body div #signUp_text {
       color: #47b39c;
-      height: auto; } }
+      height: auto; }
+    body .bryt_profile {
+      background-color: #673653;
+      height: 9px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; }
+    body #first_profile_section .rubrik {
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Roboto", sans-serif; }
+    body #first_profile_section .tradantal {
+      grid-area: tradantal; }
+    body #first_profile_section .tradar {
+      grid-area: tradar; }
+    body #first_profile_section .34k {
+      grid-area: tusen; }
+    body #first_profile_section .foljare {
+      grid-area: foljare; }
+    body #first_profile_section .antalfoljer {
+      grid-area: antalfoljer; }
+    body #first_profile_section .foljer {
+      grid-area: foljer; }
+    body #first_profile_section #profilbild_profile {
+      float: left; }
+    body #first_profile_section .grid-container_profile1 {
+      display: grid;
+      float: left;
+      grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; } }
