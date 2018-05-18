@@ -12,16 +12,23 @@
       margin-top: 45px; }
     body h1 {
       text-align: center;
-      font-size: 30px;
+      font-size: 50px;
       font-weight: 700;
       font-family: "Lato", sans-serif;
       color: #ffffff;
-      margin: 0; }
+      margin: 80px; }
     body h2 {
       text-align: center;
       font-family: "Roboto", sans-serif;
       font-weight: 700;
       font-size: 22px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body h3 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
       color: #ffffff;
       letter-spacing: 0;
       text-align: center; }
@@ -79,7 +86,7 @@
     body #firstSection {
       width: 100%;
       margin: 0; }
-      body #firstSection .rubrik {
+      body #firstSection .rubrik_thread {
         text-align: center;
         margin-top: 30px; }
       body #firstSection #skapadtradav {
@@ -138,16 +145,6 @@
       font-weight: 400;
       padding-top: 5px; }
     body .thread_sections .check {
-      grid-area: check; }
-    body .thread_sections .betyg {
-      grid-area: betyg; }
-    body .thread_sections .cross {
-      grid-area: cross; }
-    body .thread_sections .grid-container2 {
-      display: grid;
-      float: right;
-      grid-template-areas: 'check' 'betyg' 'cross'; }
-    body .thread_sections .check {
       float: right;
       margin-right: 10px;
       margin-top: 25px; }
@@ -169,13 +166,63 @@
       margin-top: 55px;
       margin-right: 50px;
       margin-bottom: 50px; }
-    body .thread_sections #cirkel {
-      display: block;
-      border: 2px solid white;
-      border-radius: 50%;
-      height: 20px;
-      width: 20px; }
-    body .thread_sections #cirkel span {
-      position: absolute;
-      top: -7px;
-      left: 2px; } }
+    body div #welcomeText {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      margin-left: 32px;
+      margin-right: 26px;
+      line-height: 22px;
+      margin-top: 35px;
+      margin-bottom: 30px; }
+    body div .login_frontpage_buttons {
+      text-align: center; }
+    body div .user_button {
+      background-color: #47b39c;
+      border-color: #47b39c;
+      border-radius: 10px;
+      height: 10%;
+      width: 80%; }
+    body div .facebook_button {
+      background-color: #311631;
+      border-color: #ffffff;
+      border-radius: 10px;
+      width: 80%; }
+    body div .login_facebook_img {
+      float: left;
+      margin-left: 15px;
+      margin-top: 15px; }
+    body div .login_button_divider {
+      height: 15px; }
+    body div #signUp_text {
+      color: #47b39c;
+      height: auto; }
+    body .bryt_profile {
+      background-color: #673653;
+      height: 9px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; }
+    body #first_profile_section .rubrik {
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Roboto", sans-serif; }
+    body #first_profile_section .tradantal {
+      grid-area: tradantal; }
+    body #first_profile_section .tradar {
+      grid-area: tradar; }
+    body #first_profile_section .34k {
+      grid-area: tusen; }
+    body #first_profile_section .foljare {
+      grid-area: foljare; }
+    body #first_profile_section .antalfoljer {
+      grid-area: antalfoljer; }
+    body #first_profile_section .foljer {
+      grid-area: foljer; }
+    body #first_profile_section #profilbild_profile {
+      float: left; }
+    body #first_profile_section .grid-container_profile1 {
+      display: grid;
+      float: left;
+      grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; } }
