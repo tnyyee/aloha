@@ -20,34 +20,52 @@ class Login extends React.Component {
 
   render() {
     return (
+      <div>
       <div className="container">
-        <header>
+
           <h1>ALOHA!</h1>
 
+          <p id="welcomeText">
+          Välkommen till en app som riktar sig till kvinnor,
+          men där vem som helst kan skapa ett konto och vara aktiv i diskutioner.
+          <br></br>
+          <br></br>
+          Här kan du diskutera, jämnföra, dela och inspereras av
+          kvinnor i hela världen.
+          </p>
 
 
-          <h2>{ this.props.email ?
-             this.props.email : ''}</h2>
+      </div>
 
+      {/*
+        <h2>{ this.props.email ?
+         this.props.email : ''}</h2>
+      */}
 
-           <h2><AccountsUIWrapper /></h2>
-          {
-            // this.props.currentUser ?
-          //   // <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
-          //   // </form> : ''
-          }
+      <p className="login_frontpage_buttons">
 
-        </header>
-        <ul>
-          {/*this.renderTasks()*/}
-        </ul>
+        <button className="user_button"><h3><AccountsUIWrapper /></h3></button>
 
-        <div className="pineapple">
+        <div className="login_button_divider"/>
 
-          <img src="vectors/pineapple.svg"/>
+        <button className="facebook_button">
+          <img className= "login_facebook_img" src="vectors/login/facebook_f.png"/>
+          <h3>Logga in med Facebook</h3>
+        </button>
 
-        </div>
+        <h4 id="signUp_text">
+        Registrera dig
+        </h4>
 
+      </p>
+
+      {
+        // this.props.currentUser ?
+      //   // <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
+      //   // </form> : ''
+      }
+
+      <img className= "pineapple" src="vectors/pineapple.svg"/>
 
       </div>
     );

@@ -11,19 +11,25 @@ $white: #ffffff;
 //insert <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> in html for Roboto font.
 $h1_font_family: 'Lato', sans-serif;
 $h2_font_family: 'Roboto', sans-serif;
+$h3_font_family: 'Roboto', sans-serif;
+$h4_font_family: 'Roboto', sans-serif;
 $p_font_family: 'Lato', sans-serif;
 $p_small_font_family: 'Lato', sans-serif;
 $button_font_family: 'Lato', sans-serif;
 
 //FONT-SIZE
-$h1_font_size: 30px;
+$h1_font_size: 50px;
 $h2_font_size: 22px;
+$h3_font_size: 18px;
+$h4_font_size: 18px;
 $p_font_size: 16px;
 $p_small_font_size: 14px;
 $button_big_font_size: 20px;
 $button_small_font_size: 16px;
 
 //FONT-WEIGHT
+$thin: 100;
+$light: 300;
 $regular: 400;
 $bold: 700;
 
@@ -38,14 +44,25 @@ $break-small: 700px;
     background-color: $primary-purple;
     color: white;
 
+
+    .burger{
+      padding: 15px;
+    }
+    .pineapple{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-top: 45px;
+    }
+
     h1{
-      text-align:center;
+      text-align: center;
       font-size: $h1_font_size;
       font-weight: $bold;
       font-family:$h1_font_family;
       color:$white;
-      margin:0;
-      margin-top: 70px;
+      margin: 80px;
     }
     h2{
       text-align: center;
@@ -55,8 +72,16 @@ $break-small: 700px;
       color:$white;
       letter-spacing:0;
       text-align:center;
-      margin-top: 80px;
     }
+    h3{
+      text-align: center;
+      font-family: $h2_font_family;
+      font-size:$h3_font_size;
+      color:$white;
+      letter-spacing:0;
+      text-align:center;
+    }
+
 
     //******************** DASHBOARD *****************************
     div{
@@ -106,25 +131,190 @@ $break-small: 700px;
     }
 
     //******************** Thread *****************************
-    #burger{
-      width: 70px;
-      padding: 50px;
+
+
+
+      #firstSection{
+        width: 100%;
+        margin: 0;
+        .rubrik{
+          text-align: center;
+          margin-top: 30px;
+        }
+
+        #skapadtradav{
+          text-align: center;
+          margin: 0px;
+          margin-top: -10px;
+          font-family: $p_font_family;
+          font-size: $p_font_size;
+          font-weight: $thin;
+        }
+        #lovenbergText{
+          margin-top: 40px;
+          font-weight: $regular;
+        }
+
+        .person1{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .small_button{
+          font-size: $p_small_font_size;
+          border:1px solid $white;
+          border-radius: $radius_small;
+          font-weight: $regular;
+          text-align: center;
+          background-color: $primary-purple;
+          width:81px;
+          height:21px;
+          color: $white;
+          display: block;
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+        .small_button:hover{
+          border: 3px solid $white !important;
+        }
+
+        #fraga{
+          font-size: $p_font_size;
+          font-weight: $light;
+          text-align:left;
+          margin-left: 32px;
+          margin-right: 26px;
+          line-height:22px;
+          margin-top: 35px;
+          margin-bottom: 30px;
+
+      }
     }
-    .rubrik{
-      font-size: 100px;
-      color: white;
+    .bryt {
+      background-color: $secondary-purple;
+      height: 15px;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px;
+
     }
-    .first{
-      background-color: $primary-purple;
-      width: 100%;
-      height: 300px;
+
+    .thread_sections{
+
+      .thread_people_photo{
+        border:2px solid $white;
+        width:63px;
+        height:63px;
+        border-radius:100%;
+        margin-top: 19px;
+        margin-left: 8px;
+        margin-right: 17px;
+        float: left;
+      }
+
+      .namn{
+        font-size: $p_font_size;
+        font-weight: $bold;
+        float: left;
+        margin-top: 32px;
+      }
+
+      .stad{
+        font-size: $p_small_font_size;
+        font-weight: $regular;
+        float: left;
+        margin-left: -35px;
+        padding-top: 22px;
+      }
+
+      .check{
+        float: right;
+        margin-right: 10px;
+        margin-top: 18px;
+      }
+
+      .betyg{
+        font-size: $p_font_size;
+        font-weight: $light;
+        float: right;
+        margin-top: 33px;
+        margin-right: -11px;
+      }
+
+      .cross{
+        float: right;
+        margin-top: 26px;
+        margin-right: -11px;
+      }
+
+      .svar{
+        font-size: $p_small_font_size;
+        font-weight: $light;
+        text-align:left;
+        margin-left: 20px;
+        margin-top: 45px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+      }
+
     }
 
     //******************** Login *****************************
+
     div{
-      .footer{
-        
-      }
+
+      #welcomeText{
+        font-size: $p_font_size;
+        font-weight: $light;
+        text-align: center;
+        margin-left: 32px;
+        margin-right: 26px;
+        line-height:22px;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        }
+
+        .login_frontpage_buttons{
+          text-align: center;
+        }
+        .user_button{
+          background-color: $primary-green;
+          border-color: $primary-green;
+          border-radius: 10px;
+          height: 10%;
+          width: 80%;
+
+        }
+        .facebook_button{
+          background-color: $primary-purple;
+          border-color: $white;
+          border-radius: 10px;
+          width: 80%;
+        }
+        .login_facebook_img{
+          float: left;
+          margin-left: 15px;
+          margin-top: 15px;
+        }
+        .login_button_divider{
+          height: 15px;
+        }
+
+        #signUp_text{
+          color: $primary-green;
+          height: auto;
+
+        }
+
+
+
+
     }
+
+
+
   }
 }
