@@ -141,7 +141,8 @@ $break-small: 700px;
       #firstSection{
         width: 100%;
         margin: 0;
-        .rubrik{
+
+        .rubrik_thread{
           text-align: center;
           margin-top: 30px;
         }
@@ -164,8 +165,6 @@ $break-small: 700px;
           margin-left: auto;
           margin-right: auto;
         }
-
-
 
         #fraga{
           font-size: $p_font_size;
@@ -226,18 +225,6 @@ $break-small: 700px;
         padding-top: 5px;
       }
 
-      .check { grid-area: check; }
-      .betyg { grid-area: betyg; }
-      .cross { grid-area: cross; }
-
-      .grid-container2 {
-        display: grid;
-        float: right;
-        grid-template-areas:
-          'check'
-          'betyg'
-          'cross';
-      }
 
       .check{
         float: right;
@@ -269,20 +256,49 @@ $break-small: 700px;
         margin-bottom: 50px;
       }
 
-      #cirkel{
-        display: block;
-        border: 2px solid white;
-        border-radius: 50%;
-        height: 20px;
-        width: 20px;
-      }
+    }
 
-      #cirkel span {
-        position: absolute;
-        top: -7px;
-        left: 2px;
-      }
+    //******************** Profile *****************************
+
+
+    .bryt_profile {
+      background-color: $secondary-purple;
+      height: 9px;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px;
 
     }
+
+    #first_profile_section{
+
+      .rubrik{
+        font-size: $h2_font_size;
+        font-weight: $regular;
+        font-family: $h2_font_family;
+
+      }
+
+      .tradantal { grid-area: tradantal; }
+      .tradar { grid-area: tradar; }
+      .34k { grid-area: tusen; }
+      .foljare { grid-area: foljare; }
+      .antalfoljer { grid-area: antalfoljer; }
+      .foljer { grid-area: foljer; }
+
+      #profilbild_profile{
+        float: left;
+      }
+
+      .grid-container_profile1 {
+        display: grid;
+        float: left;
+        grid-template-areas:
+          ' tradantal tusen antalfoljer'
+          ' tradar foljare foljer'
+          ' tradar foljare foljer';
+      }
+
+      }
   }
 }
