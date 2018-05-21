@@ -20,7 +20,7 @@ class Login extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="login">
       <div className="container">
 
           <h1>ALOHA!</h1>

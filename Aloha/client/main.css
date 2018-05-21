@@ -166,7 +166,7 @@
       margin-top: 55px;
       margin-right: 50px;
       margin-bottom: 50px; }
-    body div #welcomeText {
+    body .login #welcomeText {
       font-size: 16px;
       font-weight: 300;
       text-align: center;
@@ -175,31 +175,31 @@
       line-height: 22px;
       margin-top: 35px;
       margin-bottom: 30px; }
-    body div .login_frontpage_buttons {
+    body .login .login_frontpage_buttons {
       text-align: center; }
-    body div .user_button {
+    body .login .user_button {
       background-color: #47b39c;
       border-color: #47b39c;
       border-radius: 10px;
       height: 10%;
       width: 80%; }
-    body div .facebook_button {
+    body .login .facebook_button {
       background-color: #311631;
       border-color: #ffffff;
       border-radius: 10px;
       width: 80%; }
-    body div .login_facebook_img {
+    body .login .login_facebook_img {
       float: left;
       margin-left: 15px;
       margin-top: 15px; }
-    body div .login_button_divider {
+    body .login .login_button_divider {
       height: 15px; }
-    body div #signUp_text {
+    body .login #signUp_text {
       color: #47b39c;
       height: auto; }
-    body div .accounts-dialog {
+    body .login .accounts-dialog {
       background-color: #ffffff; }
-    body div .login-buttons-dropdown-align- {
+    body .login .login-buttons-dropdown-align- {
       text-align: center;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
@@ -233,9 +233,9 @@
       display: grid;
       float: left;
       grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
-    body div .search_section {
+    body .search .search_section {
       width: 100%; }
-    body div #search_first_section .search_wrapper {
+    body .search #search_first_section .search_wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -245,7 +245,7 @@
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
-      body div #search_first_section .search_wrapper .search_large_button {
+      body .search #search_first_section .search_wrapper .search_large_button {
         text-align: center;
         background-color: #311631;
         color: #ffffff;
@@ -256,7 +256,7 @@
         width: 273px;
         height: 52px;
         margin-top: 83px; }
-    body div #search_first_section .search_wrapper {
+    body .search #search_first_section .search_wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -269,20 +269,20 @@
       height: 200px;
       margin-left: 50px;
       margin-right: 50px; }
-      body div #search_first_section .search_wrapper p {
+      body .search #search_first_section .search_wrapper p {
         text-align: center;
         margin: 0px;
         margin-top: -10px;
         font-family: "Lato", sans-serif;
         font-size: 16px;
         font-weight: 100; }
-    body div #search_first_section .search_footer {
+    body .search #search_first_section .search_footer {
       position: fixed;
       bottom: 0;
       width: 100%; }
-    body div .searchresult_section {
+    body .search_result .searchresult_section {
       width: 100%; }
-    body div #searchresult_first_section .searchresult_wrapper {
+    body .search_result #searchresult_first_section .searchresult_wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -292,7 +292,7 @@
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
-      body div #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
+      body .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
         text-align: center;
         background-color: #311631;
         color: #ffffff;
@@ -303,11 +303,11 @@
         width: 273px;
         height: 52px;
         margin-top: 83px; }
-    body div #searchresult_second_section {
+    body .search_result #searchresult_second_section {
       margin-top: 83px; }
-      body div #searchresult_second_section .searchresult_thread {
+      body .search_result #searchresult_second_section .searchresult_thread {
         float: left; }
-        body div #searchresult_second_section .searchresult_thread .searchresult_people_photo {
+        body .search_result #searchresult_second_section .searchresult_thread .searchresult_people_photo {
           border: 2px solid #ffffff;
           width: 63px;
           height: 63px;
@@ -316,23 +316,23 @@
           margin-left: 8px;
           margin-right: 17px;
           float: left; }
-        body div #searchresult_second_section .searchresult_thread .rubrik {
+        body .search_result #searchresult_second_section .searchresult_thread .rubrik {
           grid-area: rubrik; }
-        body div #searchresult_second_section .searchresult_thread .kategori {
+        body .search_result #searchresult_second_section .searchresult_thread .kategori {
           grid-area: kategori; }
-        body div #searchresult_second_section .searchresult_thread .searchresult_grid-container1 {
+        body .search_result #searchresult_second_section .searchresult_thread .searchresult_grid-container1 {
           display: grid;
           float: left;
           grid-template-areas: 'rubrik rubrik' 'kategori kategori'; }
-        body div #searchresult_second_section .searchresult_thread .rubrik {
+        body .search_result #searchresult_second_section .searchresult_thread .rubrik {
           font-size: 16px;
           font-weight: 700;
           margin-top: 32px; }
-        body div #searchresult_second_section .searchresult_thread .kategori {
+        body .search_result #searchresult_second_section .searchresult_thread .kategori {
           font-size: 14px;
           font-weight: 400;
           padding-top: 5px; }
-      body div #searchresult_second_section .searchresult_footer {
+      body .search_result #searchresult_second_section .searchresult_footer {
         position: fixed;
         bottom: 0;
         width: 100%; } }
