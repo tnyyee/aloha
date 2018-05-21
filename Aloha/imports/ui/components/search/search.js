@@ -1,14 +1,15 @@
 import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
-
+import '../../../../client/main.css';
+import './style_search.css';
 
 export const Search = () =>
   <div className="search">
-    <section id="search_first_section" className ="search_dashboard_section">
+
 
       <img className="burger" src="vectors/meny.svg" />
 
-      <h1>Alla trådar</h1>
+      <h2>Alla trådar</h2>
 
       <div className="search_wrapper">
         <button className="search_large_button">Sök</button>
@@ -24,5 +25,5 @@ export const Search = () =>
         <img className="pineapple" src="vectors/pineapple.svg" />
       </div>
 
-    </section>
+
   </div>
