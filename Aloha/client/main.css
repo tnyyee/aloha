@@ -197,6 +197,13 @@
     body div #signUp_text {
       color: #47b39c;
       height: auto; }
+    body div .accounts-dialog {
+      background-color: #ffffff; }
+    body div .login-buttons-dropdown-align- {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      color: #ffffff; }
     body .bryt_profile {
       background-color: #673653;
       height: 9px;

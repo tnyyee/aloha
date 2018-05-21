@@ -42,7 +42,7 @@ class Login extends React.Component {
          this.props.email : ''}</h2>
       */}
 
-      <p className="login_frontpage_buttons">
+      <div className="login_frontpage_buttons">
 
         <button className="user_button"><h3><AccountsUIWrapper /></h3></button>
 
@@ -57,7 +57,7 @@ class Login extends React.Component {
         Registrera dig
         </h4>
 
-      </p>
+      </div>
 
       {
         // this.props.currentUser ?
