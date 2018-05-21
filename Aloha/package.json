@@ -13,17 +13,6 @@
     "react-dom": "^16.3.1",
     "react-router-dom": "^4.2.2",
     "react-timeout": "^1.1.1"
-<<<<<<< HEAD
-=======
 
->>>>>>> 98641eccfa644213e9407f22c7621a69f3c6f1c1
-  },
-  "devDependencies": {
-    "css-loader": "^0.28.11"
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 98641eccfa644213e9407f22c7621a69f3c6f1c1
   }
 }

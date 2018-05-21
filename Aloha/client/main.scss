@@ -323,70 +323,7 @@ $break-small: 700px;
 
     //******************** Login *****************************
 
-    .login{
-
-      #welcomeText{
-        font-size: $p_font_size;
-        font-weight: $light;
-        text-align: center;
-        margin-left: 32px;
-        margin-right: 26px;
-        line-height:22px;
-        margin-top: 35px;
-        margin-bottom: 30px;
-        }
-
-        .login_frontpage_buttons{
-          text-align: center;
-        }
-        .user_button{
-          font-size:$button_big_font_size;
-          background-color: $primary-green;
-          border-color: $primary-green;
-          border-radius: 10px;
-          height: 10%;
-          width: 80%;
-
-        }
-        .facebook_button{
-          font-size:$button_big_font_size;
-          background-color: $primary-purple;
-          border:1px solid $white;
-          font-weight: $regular;
-          font-size:$button_big_font_size;
-          border-radius: $radius_big;
-          color: $white;
-
-
-
-        }
-        .login_facebook_img{
-          float: left;
-          margin-left: 15px;
-          margin-top: 15px;
-        }
-        .login_button_divider{
-          height: 15px;
-        }
-
-        #signUp_text{
-          color: $primary-green;
-          height: auto;
-
-        }
-
-        .accounts-dialog{
-          background-color: $white;
-        }
-
-        .login-buttons-dropdown-align-{
-            text-align: center;
-            font-family: $h2_font_family;
-            font-size:$h3_font_size;
-            color:$white;
-        }
-    }
-
+    
 
     //******************** Profile *****************************
 

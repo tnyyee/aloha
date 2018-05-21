@@ -9,7 +9,10 @@ import { getUser } from '../../../api/get-user.js';
 import { Template } from 'meteor/templating';
 import { Blaze } from 'meteor/blaze';
 
-class Login extends React.Component {
+import '../../../../client/main.css';
+import './style_login.css';
+
+class Login extends React.Component{
 
   constructor(props) {
     super(props);
