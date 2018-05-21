@@ -207,44 +207,6 @@
     margin-top: 55px;
     margin-right: 50px;
     margin-bottom: 50px; }
-  .login #welcomeText {
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-    margin-left: 32px;
-    margin-right: 26px;
-    line-height: 22px;
-    margin-top: 35px;
-    margin-bottom: 30px; }
-  .login .login_frontpage_buttons {
-    text-align: center; }
-  .login .user_button {
-    background-color: #47b39c;
-    border-color: #47b39c;
-    border-radius: 10px;
-    height: 10%;
-    width: 80%; }
-  .login .facebook_button {
-    background-color: #311631;
-    border-color: #ffffff;
-    border-radius: 10px;
-    width: 80%; }
-  .login .login_facebook_img {
-    float: left;
-    margin-left: 15px;
-    margin-top: 15px; }
-  .login .login_button_divider {
-    height: 15px; }
-  .login #signUp_text {
-    color: #47b39c;
-    height: auto; }
-  .login .accounts-dialog {
-    background-color: #ffffff; }
-  .login .login-buttons-dropdown-align- {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    color: #ffffff; }
   .bryt_profile {
     background-color: #673653;
     height: 9px;
@@ -269,9 +231,14 @@
   #first_profile_section .foljer {
     grid-area: foljer; }
   #first_profile_section #profilbild_profile {
-    float: left; }
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px; }
   #first_profile_section .grid-container_profile1 {
     display: grid;
+    grid-gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
     float: left;
     grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; } }
 

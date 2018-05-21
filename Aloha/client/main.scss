@@ -323,65 +323,7 @@ $break-small: 700px;
 
     //******************** Login *****************************
 
-    .login{
-
-      #welcomeText{
-        font-size: $p_font_size;
-        font-weight: $light;
-        text-align: center;
-        margin-left: 32px;
-        margin-right: 26px;
-        line-height:22px;
-        margin-top: 35px;
-        margin-bottom: 30px;
-        }
-
-        .login_frontpage_buttons{
-          text-align: center;
-        }
-        .user_button{
-          background-color: $primary-green;
-          border-color: $primary-green;
-          border-radius: 10px;
-          height: 10%;
-          width: 80%;
-
-        }
-        .facebook_button{
-          background-color: $primary-purple;
-          border-color: $white;
-          border-radius: 10px;
-          width: 80%;
-        }
-        .login_facebook_img{
-          float: left;
-          margin-left: 15px;
-          margin-top: 15px;
-        }
-        .login_button_divider{
-          height: 15px;
-        }
-
-        #signUp_text{
-          color: $primary-green;
-          height: auto;
-
-        }
-
-        .accounts-dialog{
-          background-color: $white;
-        }
-
-        .login-buttons-dropdown-align-{
-            text-align: center;
-            font-family: $h2_font_family;
-            font-size:$h3_font_size;
-            color:$white;
-        }
-    }
-
-
-
+    
 
     //******************** Profile *****************************
 
@@ -412,10 +354,15 @@ $break-small: 700px;
 
       #profilbild_profile{
         float: left;
+        margin-left: 20px;
+        margin-top: 20px;
       }
 
       .grid-container_profile1 {
         display: grid;
+        grid-gap: 10px;
+        margin-top: 20px;
+        padding: 10px;
         float: left;
         grid-template-areas:
           ' tradantal tusen antalfoljer'
