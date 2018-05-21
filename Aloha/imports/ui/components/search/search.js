@@ -3,7 +3,7 @@ import {withHistory, Link} from 'react-router-dom';
 
 
 export const Search = () =>
-  <div>
+  <div className="search">
     <section id="search_first_section" className ="search_dashboard_section">
 
       <img className="burger" src="vectors/meny.svg" />
