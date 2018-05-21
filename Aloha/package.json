@@ -16,6 +16,9 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.11"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 34dfb23d46529919eda39c67f3de8599b6efe01a
   }
 }
