@@ -1,4 +1,4 @@
-import React from 'react';
+ -mimport React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
 
