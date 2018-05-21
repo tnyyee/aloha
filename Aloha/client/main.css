@@ -12,16 +12,23 @@
       margin-top: 45px; }
     body h1 {
       text-align: center;
-      font-size: 30px;
+      font-size: 50px;
       font-weight: 700;
       font-family: "Lato", sans-serif;
       color: #ffffff;
-      margin: 0; }
+      margin: 80px; }
     body h2 {
       text-align: center;
       font-family: "Roboto", sans-serif;
       font-weight: 700;
       font-size: 22px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body h3 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
       color: #ffffff;
       letter-spacing: 0;
       text-align: center; }
@@ -159,6 +166,44 @@
       margin-top: 55px;
       margin-right: 50px;
       margin-bottom: 50px; }
+    body div #welcomeText {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      margin-left: 32px;
+      margin-right: 26px;
+      line-height: 22px;
+      margin-top: 35px;
+      margin-bottom: 30px; }
+    body div .login_frontpage_buttons {
+      text-align: center; }
+    body div .user_button {
+      background-color: #47b39c;
+      border-color: #47b39c;
+      border-radius: 10px;
+      height: 10%;
+      width: 80%; }
+    body div .facebook_button {
+      background-color: #311631;
+      border-color: #ffffff;
+      border-radius: 10px;
+      width: 80%; }
+    body div .login_facebook_img {
+      float: left;
+      margin-left: 15px;
+      margin-top: 15px; }
+    body div .login_button_divider {
+      height: 15px; }
+    body div #signUp_text {
+      color: #47b39c;
+      height: auto; }
+    body div .accounts-dialog {
+      background-color: #ffffff; }
+    body div .login-buttons-dropdown-align- {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      color: #ffffff; }
     body .bryt_profile {
       background-color: #673653;
       height: 9px;
