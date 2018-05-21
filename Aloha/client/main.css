@@ -274,40 +274,6 @@
     display: grid;
     float: left;
     grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
-<<<<<<< HEAD
-  .search_result .searchresult_section {
-    width: 100%; }
-  .search_result #searchresult_first_section .searchresult_wrapper {
-=======
-  .search .search_section {
-    width: 100%; }
-  .search #search_first_section .search_wrapper {
->>>>>>> edb4efb6d01bad757285751798d2c022eaeaf98c
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-<<<<<<< HEAD
-    .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
-      text-align: center;
-=======
-    .search #search_first_section .search_wrapper .search_large_button {
-      text-align: center;
-      background-color: #311631;
-      color: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 9px;
-      font-size: 20px;
-      font-weight: 400;
-      width: 273px;
-      height: 52px;
-      margin-top: 83px; }
-  .search #search_first_section .search_wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -317,35 +283,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: 200px;
-    margin-left: 50px;
-    margin-right: 50px; }
-    .search #search_first_section .search_wrapper p {
-      text-align: center;
-      margin: 0px;
-      margin-top: -10px;
-      font-family: "Lato", sans-serif;
-      font-size: 16px;
-      font-weight: 100; }
-  .search #search_first_section .search_footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%; }
-  .search_result .searchresult_section {
-    width: 100%; }
-  .search_result #searchresult_first_section .searchresult_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
-      text-align: center;
->>>>>>> edb4efb6d01bad757285751798d2c022eaeaf98c
       background-color: #311631;
       color: #ffffff;
       border: 1px solid #ffffff;
@@ -387,4 +324,4 @@
     .search_result #searchresult_second_section .searchresult_footer {
       position: fixed;
       bottom: 0;
-      width: 100%; } }
+      width: 100%; } 
