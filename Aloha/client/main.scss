@@ -273,7 +273,7 @@ $break-small: 700px;
 
     //******************** Login *****************************
 
-    div{
+    .login{
 
       #welcomeText{
         font-size: $p_font_size;
@@ -328,11 +328,6 @@ $break-small: 700px;
             font-size:$h3_font_size;
             color:$white;
         }
-
-
-
-
-
     }
 
 
@@ -380,7 +375,7 @@ $break-small: 700px;
 
     }
     //******************** SEARCH *****************************
-    div{
+    .search{
       .search_section{
         width:100%;
       }
@@ -431,7 +426,7 @@ $break-small: 700px;
       }
     }
     //******************** SEARCH-RESULTS *****************************
-    div{
+    .search_result{
       .searchresult_section{
         width:100%;
       }
