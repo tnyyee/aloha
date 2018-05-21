@@ -1,6 +1,7 @@
 import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
+import './style_profile.css';
 
 // <div>
 //   Profile works
@@ -14,7 +15,7 @@ export const Profile = () =>
       <img className="burger" src="vectors/meny.svg" />
       <h2 id="rubrik">lovenberg</h2>
 
-      <img id="profilbild_profile" src="vectors/profile/person1_profile.svg" />
+      <img id="profilbild_profile" src="png/profile/person1_profile.png" />
 
       <div className="grid-container_profile1">
 
@@ -26,12 +27,17 @@ export const Profile = () =>
         <div id="foljer">följer</div>
       </div>
 
+      <button className="small_button">Följ +</button>
+      <p className="info_profile">Louise Bergström</p>
+      <p className="info_profile">lovenberg@gmail.com</p>
+      <p className="info_profile">Louise Bergström</p>
+
     </section>
 
     <div className="bryt_profile"></div>
 
     <section id="second_profile_section">
-      <p>Hej</p>
+
 
     </section>
 

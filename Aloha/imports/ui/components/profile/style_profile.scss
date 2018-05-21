@@ -1,0 +1,69 @@
+@import '../../../../client/main.scss';
+
+@media screen and (max-width: $break-small){
+
+  .bryt_profile {
+    background-color: $secondary-purple;
+    height: 9px;
+    align-content: left;
+    width: 110%;
+    margin-left: -15px;
+
+  }
+
+  #first_profile_section{
+
+    .rubrik{
+      font-size: $h2_font_size;
+      font-weight: $regular;
+      font-family: $h2_font_family;
+
+    }
+
+    .tradantal { grid-area: tradantal; }
+    .tradar { grid-area: tradar; }
+    .34k { grid-area: tusen; }
+    .foljare { grid-area: foljare; }
+    .antalfoljer { grid-area: antalfoljer; }
+    .foljer { grid-area: foljer; }
+
+    #profilbild_profile{
+      float: left;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .grid-container_profile1 {
+      display: grid;
+      grid-gap: 10px;
+      margin-top: 20px;
+      padding: 10px;
+      float: left;
+      grid-template-areas:
+        ' tradantal tusen antalfoljer'
+        ' tradar foljare foljer'
+        ' tradar foljare foljer';
+    }
+    .small_button{
+      font-size: $p_small_font_size;
+      border:1px solid $white;
+      border-radius: $radius_small;
+      font-weight: $regular;
+      text-align: center;
+      background-color: $primary-purple;
+      width:81px;
+      height:21px;
+      color: $white;
+      display: block;
+      margin-top: 10px;
+      margin-left: 20px;
+
+    }
+
+    .info_profile{
+      font-family: $p_font_family;
+      font-size: $p_font_size;
+    }
+
+  
+}
