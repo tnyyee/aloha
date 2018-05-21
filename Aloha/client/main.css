@@ -79,7 +79,7 @@
     body #firstSection {
       width: 100%;
       margin: 0; }
-      body #firstSection .rubrik {
+      body #firstSection .rubrik_thread {
         text-align: center;
         margin-top: 30px; }
       body #firstSection #skapadtradav {
@@ -138,16 +138,6 @@
       font-weight: 400;
       padding-top: 5px; }
     body .thread_sections .check {
-      grid-area: check; }
-    body .thread_sections .betyg {
-      grid-area: betyg; }
-    body .thread_sections .cross {
-      grid-area: cross; }
-    body .thread_sections .grid-container2 {
-      display: grid;
-      float: right;
-      grid-template-areas: 'check' 'betyg' 'cross'; }
-    body .thread_sections .check {
       float: right;
       margin-right: 10px;
       margin-top: 25px; }
@@ -169,13 +159,135 @@
       margin-top: 55px;
       margin-right: 50px;
       margin-bottom: 50px; }
-    body .thread_sections #cirkel {
-      display: block;
-      border: 2px solid white;
-      border-radius: 50%;
-      height: 20px;
-      width: 20px; }
-    body .thread_sections #cirkel span {
-      position: absolute;
-      top: -7px;
-      left: 2px; } }
+    body .bryt_profile {
+      background-color: #673653;
+      height: 9px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; }
+    body #first_profile_section .rubrik {
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Roboto", sans-serif; }
+    body #first_profile_section .tradantal {
+      grid-area: tradantal; }
+    body #first_profile_section .tradar {
+      grid-area: tradar; }
+    body #first_profile_section .34k {
+      grid-area: tusen; }
+    body #first_profile_section .foljare {
+      grid-area: foljare; }
+    body #first_profile_section .antalfoljer {
+      grid-area: antalfoljer; }
+    body #first_profile_section .foljer {
+      grid-area: foljer; }
+    body #first_profile_section #profilbild_profile {
+      float: left; }
+    body #first_profile_section .grid-container_profile1 {
+      display: grid;
+      float: left;
+      grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
+    body div .search_section {
+      width: 100%; }
+    body div #search_first_section .search_wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      body div #search_first_section .search_wrapper .search_large_button {
+        text-align: center;
+        background-color: #311631;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 9px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 273px;
+        height: 52px;
+        margin-top: 83px; }
+    body div #search_first_section .search_wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 200px;
+      margin-left: 50px;
+      margin-right: 50px; }
+      body div #search_first_section .search_wrapper p {
+        text-align: center;
+        margin: 0px;
+        margin-top: -10px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 100; }
+    body div #search_first_section .search_footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%; }
+    body div .searchresult_section {
+      width: 100%; }
+    body div #searchresult_first_section .searchresult_wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      body div #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
+        text-align: center;
+        background-color: #311631;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 9px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 273px;
+        height: 52px;
+        margin-top: 83px; }
+    body div #searchresult_second_section {
+      margin-top: 83px; }
+      body div #searchresult_second_section .searchresult_thread {
+        float: left; }
+        body div #searchresult_second_section .searchresult_thread .searchresult_people_photo {
+          border: 2px solid #ffffff;
+          width: 63px;
+          height: 63px;
+          border-radius: 100%;
+          margin-top: 19px;
+          margin-left: 8px;
+          margin-right: 17px;
+          float: left; }
+        body div #searchresult_second_section .searchresult_thread .rubrik {
+          grid-area: rubrik; }
+        body div #searchresult_second_section .searchresult_thread .kategori {
+          grid-area: kategori; }
+        body div #searchresult_second_section .searchresult_thread .searchresult_grid-container1 {
+          display: grid;
+          float: left;
+          grid-template-areas: 'rubrik rubrik' 'kategori kategori'; }
+        body div #searchresult_second_section .searchresult_thread .rubrik {
+          font-size: 16px;
+          font-weight: 700;
+          margin-top: 32px; }
+        body div #searchresult_second_section .searchresult_thread .kategori {
+          font-size: 14px;
+          font-weight: 400;
+          padding-top: 5px; }
+      body div #searchresult_second_section .searchresult_footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%; } }
