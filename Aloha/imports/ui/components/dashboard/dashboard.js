@@ -1,12 +1,10 @@
 import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
-
+import './style_dashboard.css';
 export const Dashboard = () =>
 
 <div id="dashboard_div">
-
-
   <section id="first_section_dashboard" className ="dashboard_section">
     <img className="burger" src="vectors/meny.svg"/>
     <h1>ALOHA!</h1>

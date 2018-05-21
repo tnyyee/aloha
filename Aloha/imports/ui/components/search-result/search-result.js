@@ -8,14 +8,14 @@ export const SearchResult = () =>
 
     <img className="burger" src="vectors/meny.svg" />
 
-    <h1>Alla trådar</h1>
+    <h2>Alla trådar</h2>
 
     <div className="searchresult_wrapper">
       <button className="searchresult_large_button">Ekonomi</button>
     </div>
-    </section>
+  </section>
 
-    <section id="searchresult_second_section" className ="searchresult_section">
+  <section id="searchresult_second_section" className ="searchresult_section">
 
     <div className="searchresult_thread">
 

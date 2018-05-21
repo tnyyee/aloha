@@ -1,0 +1,80 @@
+@import '../../../../client/main.scss';
+
+$break-small: 700px;
+@media screen and (max-width: $break-small) {
+  .search_result{
+    .searchresult_section{
+      width:100%;
+    }
+
+    #searchresult_first_section{
+      .searchresult_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .searchresult_large_button{
+          text-align: center;
+          background-color: $primary-purple;
+          color: $white;
+          border:1px solid $white;
+          border-radius: $radius_big;
+          font-size:$button_big_font_size;
+          font-weight: $regular;
+          width:273px;
+          height:52px;
+          margin-top: 83px;
+        }
+      }
+    }
+    #searchresult_second_section{
+      margin-top: 83px;
+      margin-left: 50px;
+      .searchresult_thread {
+        float: left;
+
+        .searchresult_people_photo{
+          border:2px solid $white;
+          width:63px;
+          height:63px;
+          border-radius:100%;
+          margin-top: 19px;
+          margin-left: 8px;
+          margin-right: 17px;
+          float: left;
+        }
+
+        .rubrik { grid-area: rubrik; }
+        .kategori { grid-area: kategori; }
+
+        .searchresult_grid-container1 {
+          display: grid;
+          float: left;
+          grid-template-areas:
+            'rubrik rubrik'
+            'kategori kategori';
+        }
+
+        .rubrik{
+          font-size: $p_font_size;
+          font-weight: $bold;
+          //float: left;
+          margin-top: 32px;
+        }
+
+        .kategori{
+          font-size: $p_small_font_size;
+          font-weight: $regular;
+          //float: left;
+          padding-top: 5px;
+        }
+      }
+
+      .searchresult_footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  }
+}

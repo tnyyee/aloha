@@ -9,7 +9,10 @@ import { getUser } from '../../../api/get-user.js';
 import { Template } from 'meteor/templating';
 import { Blaze } from 'meteor/blaze';
 
-class Login extends React.Component {
+import '../../../../client/main.css';
+import './style_login.css';
+
+class Login extends React.Component{
 
   constructor(props) {
     super(props);
@@ -50,7 +53,7 @@ class Login extends React.Component {
 
         <button className="facebook_button">
           <img className= "login_facebook_img" src="vectors/login/facebook_f.png"/>
-          <h3>Logga in med Facebook</h3>
+          Logga in med Facebook
         </button>
 
         <h4 id="signUp_text">

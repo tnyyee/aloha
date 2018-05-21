@@ -36,157 +36,6 @@
     color: #ffffff;
     letter-spacing: 0;
     text-align: center; }
-<<<<<<< HEAD
-  #dashboard_div .dashboard_section {
-    width: 100%;
-    background-color: #311631; }
-  #dashboard_div #first_section_dashboard {
-    margin-bottom: 10px; }
-    #dashboard_div #first_section_dashboard h1 {
-      margin-top: 67px; }
-    #dashboard_div #first_section_dashboard h2 {
-      margin-bottom: 19px;
-      margin-top: 61px; }
-    #dashboard_div #first_section_dashboard .large_button {
-      border: 1px solid #ffffff;
-      border-radius: 9px;
-      width: 273px;
-      height: 52px;
-      background-color: #311631;
-      color: #ffffff;
-      font-size: 20px;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 83px;
-      margin-bottom: 80px;
-      display: block; }
-    #dashboard_div #first_section_dashboard .picture-grid {
-      margin-left: 16px;
-      margin-right: 16px;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      grid-column-gap: 15px;
-      grid-row-gap: 15px;
-      margin-bottom: 77px; }
-      #dashboard_div #first_section_dashboard .picture-grid .grid-box img {
-        width: 100%; }
-  #dashboard_div .page_break {
-    background-color: #673653;
-    width: 100%;
-    height: 10px;
-    display: grid;
-    grid-template-columns: auto; }
-  #dashboard_div #second_section_dashboard {
-    margin-bottom: 10px; }
-    #dashboard_div #second_section_dashboard h2 {
-      margin-bottom: 44px;
-      margin-top: 61px; }
-    #dashboard_div #second_section_dashboard .thread-grid {
-      margin-top: 44px;
-      margin-left: 16px;
-      margin-right: 16px;
-      display: grid;
-      grid-template-columns: 20% 75% 5%;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      margin-bottom: 77px; }
-      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box {
-        margin-bottom: 20px; }
-        #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box p {
-          font-size: 16px;
-          font-family: "Lato", sans-serif;
-          font-weight: 400;
-          margin-top: 12px;
-          margin-left: 5px;
-          margin-bottom: 0px; }
-        #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box #p2 {
-          margin-top: 0px;
-          font-weight: 300; }
-        #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box .arrow {
-          margin-top: 11px;
-          margin-left: 2px; }
-  .login #welcomeText {
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-    margin-left: 32px;
-    margin-right: 26px;
-    line-height: 22px;
-    margin-top: 35px;
-    margin-bottom: 30px; }
-  .login .login_frontpage_buttons {
-    text-align: center; }
-  .login .user_button {
-    background-color: #47b39c;
-    border-color: #47b39c;
-    border-radius: 10px;
-    height: 10%;
-    width: 80%; }
-  .login .facebook_button {
-    background-color: #311631;
-    border-color: #ffffff;
-    border-radius: 10px;
-    width: 80%; }
-  .login .login_facebook_img {
-    float: left;
-    margin-left: 15px;
-    margin-top: 15px; }
-  .login .login_button_divider {
-    height: 15px; }
-  .login #signUp_text {
-    color: #47b39c;
-    height: auto; }
-  .login .accounts-dialog {
-    background-color: #ffffff; }
-  .login .login-buttons-dropdown-align- {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    color: #ffffff; }
-  .search .search_section {
-    width: 100%; }
-  .search #search_first_section .search_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .search #search_first_section .search_wrapper .search_large_button {
-      text-align: center;
-      background-color: #311631;
-      color: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 9px;
-      font-size: 20px;
-      font-weight: 400;
-      width: 273px;
-      height: 52px;
-      margin-top: 83px; }
-  .search #search_first_section .search_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 200px;
-    margin-left: 50px;
-    margin-right: 50px; }
-    .search #search_first_section .search_wrapper p {
-=======
   .small_button {
     font-size: 14px;
     border: 1px solid #ffffff;
@@ -208,22 +57,12 @@
       text-align: center;
       margin-top: 30px; }
     #firstSection #skapadtradav {
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
       text-align: center;
       margin: 0px;
       margin-top: -10px;
       font-family: "Lato", sans-serif;
       font-size: 16px;
       font-weight: 100; }
-<<<<<<< HEAD
-  .search #search_first_section .search_footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%; }
-  .search_result .searchresult_section {
-    width: 100%; }
-  .search_result #searchresult_first_section .searchresult_wrapper {
-=======
     #firstSection #lovenbergText {
       margin-top: 40px;
       font-weight: 400; }
@@ -356,7 +195,6 @@
   #first_profile_section .foljer {
     grid-area: foljer; }
   #first_profile_section #profilbild_profile {
-<<<<<<< HEAD
     float: left;
     margin-left: 20px;
     margin-top: 20px; }
@@ -370,14 +208,6 @@
   .search .search_section {
     width: 100%; }
   .search #search_first_section .search_wrapper {
-=======
-    float: left; }
-  #first_profile_section .grid-container_profile1 {
-    display: grid;
-    float: left;
-    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -386,27 +216,14 @@
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-<<<<<<< HEAD
-    justify-content: center; }
-    .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
-      text-align: center;
-=======
-<<<<<<< HEAD
     justify-content: center; }
     .search #search_first_section .search_wrapper .search_large_button {
       text-align: center;
-=======
-    justify-content: center;
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
       background-color: #311631;
       color: #ffffff;
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
       font-weight: 400;
       width: 273px;
       height: 52px;
@@ -454,9 +271,6 @@
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
-=======
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
       font-weight: 400;
       width: 273px;
       height: 52px;
@@ -493,12 +307,82 @@
     .search_result #searchresult_second_section .searchresult_footer {
       position: fixed;
       bottom: 0;
-<<<<<<< HEAD
       width: 100%; } }
-=======
-<<<<<<< HEAD
-      width: 100%; } }
-=======
+
+#dashboard_div .dashboard_section {
+  width: 100%;
+  background-color: #311631; }
+
+#dashboard_div #first_section_dashboard {
+  margin-bottom: 10px; }
+  #dashboard_div #first_section_dashboard h1 {
+    margin-top: 67px; }
+  #dashboard_div #first_section_dashboard h2 {
+    margin-bottom: 19px;
+    margin-top: 61px; }
+  #dashboard_div #first_section_dashboard .large_button {
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    width: 273px;
+    height: 52px;
+    background-color: #311631;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 83px;
+    margin-bottom: 80px;
+    display: block; }
+  #dashboard_div #first_section_dashboard .picture-grid {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-bottom: 77px; }
+    #dashboard_div #first_section_dashboard .picture-grid .grid-box img {
       width: 100%; }
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
+
+#dashboard_div .page_break {
+  background-color: #673653;
+  width: 100%;
+  height: 10px;
+  display: grid;
+  grid-template-columns: auto; }
+
+#dashboard_div #second_section_dashboard {
+  margin-bottom: 10px; }
+  #dashboard_div #second_section_dashboard h2 {
+    margin-bottom: 44px;
+    margin-top: 61px; }
+  #dashboard_div #second_section_dashboard .thread-grid {
+    margin-top: 44px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: grid;
+    grid-template-columns: 20% 75% 5%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 77px; }
+    #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box {
+      margin-bottom: 20px; }
+      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box p {
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        margin-top: 12px;
+        margin-left: 5px;
+        margin-bottom: 0px; }
+      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box #p2 {
+        margin-top: 0px;
+        font-weight: 300; }
+      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box .arrow {
+        margin-top: 11px;
+        margin-left: 2px; }
