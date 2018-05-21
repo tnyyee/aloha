@@ -273,7 +273,9 @@
   #first_profile_section .grid-container_profile1 {
     display: grid;
     float: left;
-    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
+    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; } }
+
+@media screen and (max-width: 700px) {
   .search_result .searchresult_section {
     width: 100%; }
   .search_result #searchresult_first_section .searchresult_wrapper {
@@ -298,7 +300,8 @@
       height: 52px;
       margin-top: 83px; }
   .search_result #searchresult_second_section {
-    margin-top: 83px; }
+    margin-top: 83px;
+    margin-left: 50px; }
     .search_result #searchresult_second_section .searchresult_thread {
       float: left; }
       .search_result #searchresult_second_section .searchresult_thread .searchresult_people_photo {
