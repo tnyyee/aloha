@@ -27,11 +27,12 @@ export const Profile = () =>
         <div id="foljer">följer</div>
       </div>
 
-      <button className="small_button">Följ +</button>
-      <p className="info_profile">Louise Bergström</p>
-      <p className="info_profile">lovenberg@gmail.com</p>
-      <p className="info_profile">Louise Bergström</p>
-
+      <div>
+        <button className="small_button">Följ +</button>
+        <p className="info_profile">Louise Bergström</p>
+        <p className="info_profile">lovenberg&#64;gmail.com</p>
+        <p className="info_profile">Louise Bergström</p>
+      </div>
     </section>
 
     <div className="bryt_profile"></div>
