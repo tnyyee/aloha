@@ -32,6 +32,7 @@ $thin: 100;
 $light: 300;
 $regular: 400;
 $bold: 700;
+$light: 300;
 
 //RADIUS
 $radius_big: 9px;
@@ -39,10 +40,14 @@ $radius_small: 5px;
 
 //Responsive
 $break-small: 700px;
-  @media screen and (max-width: $break-small) {
+@media screen and (max-width: $break-small){
   body{
     background-color: $primary-purple;
     color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
 
 
     .burger{
@@ -73,6 +78,7 @@ $break-small: 700px;
       letter-spacing:0;
       text-align:center;
     }
+    }
     h3{
       text-align: center;
       font-family: $h2_font_family;
@@ -81,55 +87,99 @@ $break-small: 700px;
       letter-spacing:0;
       text-align:center;
     }
-
-
     //******************** DASHBOARD *****************************
-    div{
+    #dashboard_div{
       .dashboard_section{
         width:100%;
+        background-color: $primary-purple;
       }
-
-      #first_section{
+      //***first section*************************************
+      #first_section_dashboard{
+        margin-bottom: 10px;
+        h1{
+          margin-top: 67px;
+        }
+        h2{
+          margin-bottom: 19px;
+          margin-top: 61px;
+        }
         .large_button{
-          text-align: center;
-          background-color: $primary-purple;
-          color: $white;
-          border:1px solid $white;
-          border-radius: $radius_big;
-          font-size:$button_big_font_size;
-          font-weight: $regular;
+          border:1px solid #ffffff;
+          border-radius:9px;
           width:273px;
           height:52px;
+          background-color: $primary-purple;
+          color:$white;
+          font-size: $button_big_font_size;
+          text-align: center;
+          margin: 0 auto;
           margin-top: 83px;
+          margin-bottom: 80px;
+          display: block;
         }
-        .grid-container {
+        .picture-grid{
+          margin-left: 16px;
+          margin-right: 16px;
           display: grid;
-          grid-template-columns: auto auto auto auto;
-          grid-gap: 10px;
-          padding: 10px;
-        }
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-          padding: 0 4px;
-
-          .column {
-            box-sizing: border-box;
-            flex: 100%;
-            max-width: 100%;
-            padding: 0 4px;
-
-            img {
-                vertical-align: middle;
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+          justify-content: center;
+          grid-column-gap: 15px;
+          grid-row-gap: 15px;
+          margin-bottom: 77px;
+          .grid-box{
+            img{
+              width: 100%;
             }
-            #second_img{
-              padding-left:d 4px;
+          }
+        }
+      }
+      //***page break*****************************************************
+      .page_break{
+        background-color: $secondary-purple;
+        width: 100%;
+        height: 10px;
+        display: grid;
+        grid-template-columns: auto;
+      }
+      //***second section*************************************
+      #second_section_dashboard{
+        margin-bottom: 10px;
+        h2{
+          margin-bottom: 44px;
+          margin-top: 61px;
+        }
+        .thread-grid{
+          margin-top: 44px;
+          margin-left: 16px;
+          margin-right: 16px;
+          display: grid;
+          grid-template-columns: 20% 75% 5%;
+          justify-content: center;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-bottom: 77px;
+          .thread-grid-box{
+            margin-bottom: 20px;
+            p{
+              font-size: $p_font_size;
+              font-family: $p_font_family;
+              font-weight: $regular;
+              margin-top: 12px;
+              margin-left:5px;
+              margin-bottom: 0px;
+            }
+            #p2{
+              margin-top: 0px;
+              font-weight: $light;
+             }
+            .arrow{
+              margin-top: 11px;
+              margin-left: 2px
             }
           }
         }
       }
     }
-
     //******************** Thread *****************************
 
 
@@ -318,18 +368,6 @@ $break-small: 700px;
 
         }
 
-        .accounts-dialog{
-          background-color: $white;
-        }
-
-        .login-buttons-dropdown-align-{
-            text-align: center;
-            font-family: $h2_font_family;
-            font-size:$h3_font_size;
-            color:$white;
-        }
-
-
 
 
 
@@ -378,132 +416,7 @@ $break-small: 700px;
           ' tradar foljare foljer';
       }
 
-    }
-    //******************** SEARCH *****************************
-    div{
-      .search_section{
-        width:100%;
       }
 
-      #search_first_section{
-        .search_wrapper {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          .search_large_button{
-            text-align: center;
-            background-color: $primary-purple;
-            color: $white;
-            border:1px solid $white;
-            border-radius: $radius_big;
-            font-size:$button_big_font_size;
-            font-weight: $regular;
-            width:273px;
-            height:52px;
-            margin-top: 83px;
-          }
-        }
-
-        .search_wrapper {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 200px;
-          margin-left: 50px;
-          margin-right: 50px;
-
-          p{
-            text-align: center;
-            margin: 0px;
-            margin-top: -10px;
-            font-family: $p_font_family;
-            font-size: $p_font_size;
-            font-weight: $thin;
-          }
-        }
-
-        .search_footer{
-          position: fixed;
-          bottom: 0;
-          width: 100%;
-        }
-      }
-    }
-    //******************** SEARCH-RESULTS *****************************
-    div{
-      .searchresult_section{
-        width:100%;
-      }
-
-      #searchresult_first_section{
-        .searchresult_wrapper {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          .searchresult_large_button{
-            text-align: center;
-            background-color: $primary-purple;
-            color: $white;
-            border:1px solid $white;
-            border-radius: $radius_big;
-            font-size:$button_big_font_size;
-            font-weight: $regular;
-            width:273px;
-            height:52px;
-            margin-top: 83px;
-          }
-        }
-      }
-      #searchresult_second_section{
-        margin-top: 83px;
-        .searchresult_thread {
-          float: left;
-
-          .searchresult_people_photo{
-            border:2px solid $white;
-            width:63px;
-            height:63px;
-            border-radius:100%;
-            margin-top: 19px;
-            margin-left: 8px;
-            margin-right: 17px;
-            float: left;
-          }
-
-          .rubrik { grid-area: rubrik; }
-          .kategori { grid-area: kategori; }
-
-          .searchresult_grid-container1 {
-            display: grid;
-            float: left;
-            grid-template-areas:
-              'rubrik rubrik'
-              'kategori kategori';
-          }
-
-          .rubrik{
-            font-size: $p_font_size;
-            font-weight: $bold;
-            //float: left;
-            margin-top: 32px;
-          }
-
-          .kategori{
-            font-size: $p_small_font_size;
-            font-weight: $regular;
-            //float: left;
-            padding-top: 5px;
-          }
-        }
-
-        .searchresult_footer{
-          position: fixed;
-          bottom: 0;
-          width: 100%;
-        }
-      }
-    }
   }
 }
