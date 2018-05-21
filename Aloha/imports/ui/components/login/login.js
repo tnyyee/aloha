@@ -20,7 +20,7 @@ class Login extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="login">
       <div className="container">
 
           <h1>ALOHA!</h1>
@@ -50,7 +50,7 @@ class Login extends React.Component {
 
         <button className="facebook_button">
           <img className= "login_facebook_img" src="vectors/login/facebook_f.png"/>
-          <h3>Logga in med Facebook</h3>
+          Logga in med Facebook
         </button>
 
         <h4 id="signUp_text">

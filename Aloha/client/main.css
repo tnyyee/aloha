@@ -207,7 +207,7 @@
     margin-top: 55px;
     margin-right: 50px;
     margin-bottom: 50px; }
-  div #welcomeText {
+  .login #welcomeText {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
@@ -216,31 +216,35 @@
     line-height: 22px;
     margin-top: 35px;
     margin-bottom: 30px; }
-  div .login_frontpage_buttons {
+  .login .login_frontpage_buttons {
     text-align: center; }
-  div .user_button {
+  .login .user_button {
+    font-size: 20px;
     background-color: #47b39c;
     border-color: #47b39c;
     border-radius: 10px;
     height: 10%;
     width: 80%; }
-  div .facebook_button {
+  .login .facebook_button {
+    font-size: 20px;
     background-color: #311631;
-    border-color: #ffffff;
-    border-radius: 10px;
-    width: 80%; }
-  div .login_facebook_img {
+    border: 1px solid #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 9px;
+    color: #ffffff; }
+  .login .login_facebook_img {
     float: left;
     margin-left: 15px;
     margin-top: 15px; }
-  div .login_button_divider {
+  .login .login_button_divider {
     height: 15px; }
-  div #signUp_text {
+  .login #signUp_text {
     color: #47b39c;
     height: auto; }
-  div .accounts-dialog {
+  .login .accounts-dialog {
     background-color: #ffffff; }
-  div .login-buttons-dropdown-align- {
+  .login .login-buttons-dropdown-align- {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -273,4 +277,107 @@
   #first_profile_section .grid-container_profile1 {
     display: grid;
     float: left;
-    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; } }
+    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
+  .search .search_section {
+    width: 100%; }
+  .search #search_first_section .search_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .search #search_first_section .search_wrapper .search_large_button {
+      text-align: center;
+      background-color: #311631;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 9px;
+      font-size: 20px;
+      font-weight: 400;
+      width: 273px;
+      height: 52px;
+      margin-top: 83px; }
+  .search #search_first_section .search_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px; }
+    .search #search_first_section .search_wrapper p {
+      text-align: center;
+      margin: 0px;
+      margin-top: -10px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: 100; }
+  .search #search_first_section .search_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
+  .search_result .searchresult_section {
+    width: 100%; }
+  .search_result #searchresult_first_section .searchresult_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
+      text-align: center;
+      background-color: #311631;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 9px;
+      font-size: 20px;
+      font-weight: 400;
+      width: 273px;
+      height: 52px;
+      margin-top: 83px; }
+  .search_result #searchresult_second_section {
+    margin-top: 83px; }
+    .search_result #searchresult_second_section .searchresult_thread {
+      float: left; }
+      .search_result #searchresult_second_section .searchresult_thread .searchresult_people_photo {
+        border: 2px solid #ffffff;
+        width: 63px;
+        height: 63px;
+        border-radius: 100%;
+        margin-top: 19px;
+        margin-left: 8px;
+        margin-right: 17px;
+        float: left; }
+      .search_result #searchresult_second_section .searchresult_thread .rubrik {
+        grid-area: rubrik; }
+      .search_result #searchresult_second_section .searchresult_thread .kategori {
+        grid-area: kategori; }
+      .search_result #searchresult_second_section .searchresult_thread .searchresult_grid-container1 {
+        display: grid;
+        float: left;
+        grid-template-areas: 'rubrik rubrik' 'kategori kategori'; }
+      .search_result #searchresult_second_section .searchresult_thread .rubrik {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 32px; }
+      .search_result #searchresult_second_section .searchresult_thread .kategori {
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 5px; }
+    .search_result #searchresult_second_section .searchresult_footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%; } }
