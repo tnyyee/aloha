@@ -27,7 +27,7 @@ export const Thread = () =>
     <div>
       <section id="firstSection" className="thread_sections">
         <img className="burger" src="vectors/meny.svg" />
-        <h2 className="rubrik">Sälja eller inte sälja?</h2>
+        <h2 className="rubrik_thread">Sälja eller inte sälja?</h2>
         <p id="skapadtradav">Tråd skapad av</p>
         <h2 id="lovenbergText">lovenberg</h2>
 
