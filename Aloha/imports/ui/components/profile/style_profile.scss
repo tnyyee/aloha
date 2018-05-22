@@ -5,16 +5,20 @@
   .bryt_profile {
     background-color: $secondary-purple;
     height: 9px;
+    clear: both;
     align-content: left;
     width: 110%;
     margin-left: -15px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    //clear: both;
 
   }
 
   #first_profile_section{
 
-    .rubrik{
-      font-size: $h2_font_size;
+    .rubrik_profile{
+      font-size: 20px;
       font-weight: $regular;
       font-family: $h2_font_family;
 
@@ -22,29 +26,39 @@
 
     .tradantal { grid-area: tradantal; }
     .tradar { grid-area: tradar; }
-    .34k { grid-area: tusen; }
+    .trefyra { grid-area: tusen; }
     .foljare { grid-area: foljare; }
     .antalfoljer { grid-area: antalfoljer; }
     .foljer { grid-area: foljer; }
 
-    #profilbild_profile{
-      float: left;
-      margin-left: 20px;
-      margin-top: 20px;
-    }
-
     .grid-container_profile1 {
       display: grid;
-      grid-gap: 10px;
-      margin-top: 20px;
-      padding: 10px;
-      float: left;
+      margin-left: 40px;
       grid-template-areas:
         ' tradantal tusen antalfoljer'
         ' tradar foljare foljer'
         ' tradar foljare foljer';
     }
-    .small_button{
+
+
+    .tradar, .foljare, .foljer{
+      font-weight: $light;
+      font-family: $p_font_family;
+    }
+
+    .tradantal, .trefyra, .antalfoljer{
+      font-family: $h3_font_family;
+      font-weight: $regular;
+      padding-top: -20px;
+    }
+
+    #profilbild_profile{
+      //float: left;
+      //margin-left: 20px;
+
+    }
+
+    .small_button_profile{
       font-size: $p_small_font_size;
       border:1px solid $white;
       border-radius: $radius_small;
@@ -55,15 +69,125 @@
       height:21px;
       color: $white;
       display: block;
-      margin-top: 10px;
-      margin-left: 20px;
-
+      margin-left: 28px;
+      margin-top: -40px;
+      margin-bottom: 30px;
+      clear:both;
     }
 
-    .info_profile{
+    #profile_info{
+      .profile_info_text{
+        margin-left: 28px;
+        font-family: $p_font_family;
+        font-size: $p_font_size;
+        font-weight: $light;
+      }
+    }
+    #sthlm{
+      float: left;
+      margin-left: 10px;
       font-family: $p_font_family;
       font-size: $p_font_size;
+      font-weight: $light;
     }
 
-  
+    #mitten{
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+
+    #plupp{
+      margin-top: 15px;
+      margin-left: 28px;
+      float: left;
+      width: 20px;
+    }
+
+  }
+
+  #second_profile_section{
+
+    margin-bottom: 300px;
+    #publtrad{
+      margin-top: 50px;
+      font-family: $h2_font_family;
+      font-size: $h2_font_size;
+      font-weight: $bold;
+      margin-bottom: 20px;
+    }
+    .tradar{
+      float: left;
+      width: 100%;
+      margin-left: 26px;
+
+      .profamne{
+        font-weight: $regular;
+        float: left;
+        font-size: $p_font_size;
+        font-family: $p_font_family;
+        margin-bottom: 0px;
+      }
+
+      .profkategori{
+        font-weight: $thin;
+        float: left;
+        font-size: $p_font_size;
+        font-family: $p_font_family;
+        margin-top: 0px;
+        clear: both;
+
+      }
+
+      .prof_arrow{
+        margin-top: -10px;
+        margin-bottom: 30px;
+        float: right;
+        margin-right: 55px;
+      }
+    }
+  }
+
+  #third_profile_section{
+
+    margin-bottom: 230px;
+
+    #publtrad{
+      margin-top: 50px;
+      font-family: $h2_font_family;
+      font-size: $h2_font_size;
+      font-weight: $bold;
+      margin-bottom: 20px;
+    }
+
+    .tradar{
+      float: left;
+      width: 100%;
+      margin-left: 26px;
+
+      .profamne{
+        font-weight: $regular;
+        float: left;
+        font-size: $p_font_size;
+        font-family: $p_font_family;
+        margin-bottom: 0px;
+      }
+
+      .profkategori{
+        font-weight: $thin;
+        float: left;
+        font-size: $p_font_size;
+        font-family: $p_font_family;
+        margin-top: 0px;
+        clear: both;
+
+      }
+
+      .prof_arrow{
+        margin-top: -10px;
+        margin-bottom: 30px;
+        float: right;
+        margin-right: 55px;
+      }
+    }
+  }
 }
