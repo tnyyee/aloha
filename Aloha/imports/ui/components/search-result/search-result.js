@@ -22,9 +22,9 @@ export const SearchResult = () =>
       <div className="searchresult-grid-box"><img className="profile_img" src="png/search_result/person1_search_result.png"/></div>
       <div className="searchresult-grid-box"><p>Hur klarar man sig utan matlådor?</p><p id="p2">Ekonomi</p></div>
       <div className="searchresult-grid-box"><img className="arrow" src="vectors/arrow.svg"/></div>
-      <div className="searchresult-grid-box"><img className="profile_img" src="png/search_result/person2_search_result.png"/></div>
-      <div className="searchresult-grid-box"><p>Sälja eller inte sälja?</p><p id="p2">Ekonomi</p></div>
-      <div className="searchresult-grid-box"><img className="arrow" src="vectors/arrow.svg"/></div>
+      <Link classname="searchResult_link" to="/thread"><div className="searchresult-grid-box"><img className="profile_img" src="png/search_result/person2_search_result.png"/></div></Link>
+      <Link classname="searchResult_link" to="/thread"><div className="searchresult-grid-box"><p>Sälja eller inte sälja?</p><p id="p2">Ekonomi</p></div></Link>
+      <Link classname="searchResult_link" to="/thread"><div className="searchresult-grid-box"><img className="arrow" src="vectors/arrow.svg"/></div></Link>
     </div>
   </section>
 </div>
