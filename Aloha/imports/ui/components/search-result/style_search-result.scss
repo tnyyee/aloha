@@ -30,8 +30,14 @@ $break-small: 700px;
     #searchresult_second_section{
       margin-top: 83px;
       margin-left: 50px;
+
       .searchresult_thread {
         float: left;
+
+        link{
+          text-decoration: 'none';
+          color: $white;
+        }
 
         .searchresult_people_photo{
           border:2px solid $white;
@@ -48,6 +54,7 @@ $break-small: 700px;
         .kategori { grid-area: kategori; }
 
         .searchresult_grid-container1 {
+
           display: grid;
           float: left;
           grid-template-areas:
@@ -58,6 +65,7 @@ $break-small: 700px;
         .rubrik{
           font-size: $p_font_size;
           font-weight: $bold;
+          color: $white;
           //float: left;
           margin-top: 32px;
         }
