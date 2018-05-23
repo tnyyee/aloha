@@ -27,46 +27,38 @@ $break-small: 700px;
         }
       }
     }
+
     #searchresult_second_section{
-      margin-top: 83px;
-      margin-left: 50px;
-      .searchresult_thread {
-        float: left;
+      margin-bottom: 10px;
+      .searchresult-grid{
+        margin-top: 44px;
+        margin-left: 16px;
+        margin-right: 16px;
+        display: grid;
+        grid-template-columns: 20% 75% 5%;
+        justify-content: center;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-bottom: 77px;
 
-        .searchresult_people_photo{
-          border:2px solid $white;
-          width:63px;
-          height:63px;
-          border-radius:100%;
-          margin-top: 19px;
-          margin-left: 8px;
-          margin-right: 17px;
-          float: left;
-        }
-
-        .rubrik { grid-area: rubrik; }
-        .kategori { grid-area: kategori; }
-
-        .searchresult_grid-container1 {
-          display: grid;
-          float: left;
-          grid-template-areas:
-            'rubrik rubrik'
-            'kategori kategori';
-        }
-
-        .rubrik{
-          font-size: $p_font_size;
-          font-weight: $bold;
-          //float: left;
-          margin-top: 32px;
-        }
-
-        .kategori{
-          font-size: $p_small_font_size;
-          font-weight: $regular;
-          //float: left;
-          padding-top: 5px;
+        .searchresult-grid-box{
+          margin-bottom: 20px;
+          p{
+            font-size: $p_font_size;
+            font-family: $p_font_family;
+            font-weight: $regular;
+            margin-top: 12px;
+            margin-left:5px;
+            margin-bottom: 0px;
+          }
+          #p2{
+            margin-top: 0px;
+            font-weight: $light;
+           }
+          .arrow{
+            margin-top: 11px;
+            margin-left: 2px
+          }
         }
       }
 
