@@ -182,6 +182,11 @@
     font-family: "Lato", sans-serif;
     font-weight: normal; }
 
+#dashboard_div #fourth_section_dashboard .small_button {
+  margin-bottom: 60px;
+  width: 81px;
+  height: 21px; }
+
 #dashboard_div #fourth_section_dashboard .outer {
   margin: auto;
   margin-right: 0px; }
