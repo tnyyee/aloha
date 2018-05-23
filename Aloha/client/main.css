@@ -1,7 +1,6 @@
 @media screen and (max-width: 700px) {
   body {
     background-color: #311631;
-    color: white;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -195,7 +194,6 @@
   #first_profile_section .foljer {
     grid-area: foljer; }
   #first_profile_section #profilbild_profile {
-<<<<<<< HEAD
     float: left;
     margin-left: 20px;
     margin-top: 20px; }
@@ -209,13 +207,11 @@
   .search .search_section {
     width: 100%; }
   .search #search_first_section .search_wrapper {
-=======
     float: left; }
   #first_profile_section .grid-container_profile1 {
     display: grid;
     float: left;
     grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -224,19 +220,15 @@
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-<<<<<<< HEAD
     justify-content: center; }
     .search #search_first_section .search_wrapper .search_large_button {
       text-align: center;
-=======
     justify-content: center;
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
       background-color: #311631;
       color: #ffffff;
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
-<<<<<<< HEAD
       font-weight: 400;
       width: 273px;
       height: 52px;
@@ -284,8 +276,6 @@
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
-=======
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
       font-weight: 400;
       width: 273px;
       height: 52px;
@@ -322,8 +312,4 @@
     .search_result #searchresult_second_section .searchresult_footer {
       position: fixed;
       bottom: 0;
-<<<<<<< HEAD
-      width: 100%; } }
-=======
       width: 100%; }
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56

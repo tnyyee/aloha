@@ -133,44 +133,6 @@
     margin-top: 55px;
     margin-right: 50px;
     margin-bottom: 50px; }
-  .login #welcomeText {
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-    margin-left: 32px;
-    margin-right: 26px;
-    line-height: 22px;
-    margin-top: 35px;
-    margin-bottom: 30px; }
-  .login .login_frontpage_buttons {
-    text-align: center; }
-  .login .user_button {
-    background-color: #47b39c;
-    border-color: #47b39c;
-    border-radius: 10px;
-    height: 10%;
-    width: 80%; }
-  .login .facebook_button {
-    background-color: #311631;
-    border-color: #ffffff;
-    border-radius: 10px;
-    width: 80%; }
-  .login .login_facebook_img {
-    float: left;
-    margin-left: 15px;
-    margin-top: 15px; }
-  .login .login_button_divider {
-    height: 15px; }
-  .login #signUp_text {
-    color: #47b39c;
-    height: auto; }
-  .login .accounts-dialog {
-    background-color: #ffffff; }
-  .login .login-buttons-dropdown-align- {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    color: #ffffff; }
   .bryt_profile {
     background-color: #673653;
     height: 9px;
@@ -204,110 +166,7 @@
     margin-top: 20px;
     padding: 10px;
     float: left;
-    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
-  .search .search_section {
-    width: 100%; }
-  .search #search_first_section .search_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .search #search_first_section .search_wrapper .search_large_button {
-      text-align: center;
-      background-color: #311631;
-      color: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 9px;
-      font-size: 20px;
-      font-weight: 400;
-      width: 273px;
-      height: 52px;
-      margin-top: 83px; }
-  .search #search_first_section .search_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 200px;
-    margin-left: 50px;
-    margin-right: 50px; }
-    .search #search_first_section .search_wrapper p {
-      text-align: center;
-      margin: 0px;
-      margin-top: -10px;
-      font-family: "Lato", sans-serif;
-      font-size: 16px;
-      font-weight: 100; }
-  .search #search_first_section .search_footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%; }
-  .search_result .searchresult_section {
-    width: 100%; }
-  .search_result #searchresult_first_section .searchresult_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
-      text-align: center;
-      background-color: #311631;
-      color: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 9px;
-      font-size: 20px;
-      font-weight: 400;
-      width: 273px;
-      height: 52px;
-      margin-top: 83px; }
-  .search_result #searchresult_second_section {
-    margin-top: 83px; }
-    .search_result #searchresult_second_section .searchresult_thread {
-      float: left; }
-      .search_result #searchresult_second_section .searchresult_thread .searchresult_people_photo {
-        border: 2px solid #ffffff;
-        width: 63px;
-        height: 63px;
-        border-radius: 100%;
-        margin-top: 19px;
-        margin-left: 8px;
-        margin-right: 17px;
-        float: left; }
-      .search_result #searchresult_second_section .searchresult_thread .rubrik {
-        grid-area: rubrik; }
-      .search_result #searchresult_second_section .searchresult_thread .kategori {
-        grid-area: kategori; }
-      .search_result #searchresult_second_section .searchresult_thread .searchresult_grid-container1 {
-        display: grid;
-        float: left;
-        grid-template-areas: 'rubrik rubrik' 'kategori kategori'; }
-      .search_result #searchresult_second_section .searchresult_thread .rubrik {
-        font-size: 16px;
-        font-weight: 700;
-        margin-top: 32px; }
-      .search_result #searchresult_second_section .searchresult_thread .kategori {
-        font-size: 14px;
-        font-weight: 400;
-        padding-top: 5px; }
-    .search_result #searchresult_second_section .searchresult_footer {
-      position: fixed;
-      bottom: 0;
-      width: 100%; } }
+    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; } }
 
 #dashboard_div .dashboard_section {
   width: 100%;
@@ -316,10 +175,17 @@
 #dashboard_div #first_section_dashboard {
   margin-bottom: 10px; }
   #dashboard_div #first_section_dashboard h1 {
-    margin-top: 67px; }
+    margin-top: 67px;
+    margin-bottom: 0px; }
   #dashboard_div #first_section_dashboard h2 {
     margin-bottom: 19px;
     margin-top: 61px; }
+  #dashboard_div #first_section_dashboard p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px; }
   #dashboard_div #first_section_dashboard .large_button {
     border: 1px solid #ffffff;
     border-radius: 9px;
@@ -357,8 +223,8 @@
 #dashboard_div #second_section_dashboard {
   margin-bottom: 10px; }
   #dashboard_div #second_section_dashboard h2 {
-    margin-bottom: 44px;
-    margin-top: 61px; }
+    margin-bottom: 46px;
+    margin-top: 79px; }
   #dashboard_div #second_section_dashboard .thread-grid {
     margin-top: 44px;
     margin-left: 16px;
@@ -386,3 +252,88 @@
       #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box .arrow {
         margin-top: 11px;
         margin-left: 2px; }
+
+#dashboard_div #third_section_dashboard h2 {
+  margin-bottom: 46px;
+  margin-top: 79px; }
+
+#dashboard_div #third_section_dashboard p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  margin-bottom: 15px;
+  margin-top: 0px; }
+
+#dashboard_div #third_section_dashboard .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  margin-bottom: 78px; }
+  #dashboard_div #third_section_dashboard .container .small_button {
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #311631;
+    width: 81px;
+    height: 21px;
+    color: #ffffff;
+    display: block;
+    margin: 0px; }
+  #dashboard_div #third_section_dashboard .container img {
+    margin-bottom: 27px; }
+
+#dashboard_div #fourth_section_dashboard h2 {
+  margin-bottom: 58px;
+  margin-top: 79px; }
+
+#dashboard_div #fourth_section_dashboard img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 49px; }
+
+#dashboard_div #fourth_section_dashboard .textbox {
+  margin: auto;
+  width: 245px;
+  height: auto;
+  margin-bottom: 51px; }
+  #dashboard_div #fourth_section_dashboard .textbox p {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal; }
+
+#dashboard_div #fourth_section_dashboard .outer {
+  margin: auto;
+  margin-right: 0px; }
+  #dashboard_div #fourth_section_dashboard .outer .close {
+    color: black; }
+  #dashboard_div #fourth_section_dashboard .outer .content {
+    padding: 0px;
+    margin: auto;
+    padding: 10px 5px; }
+    #dashboard_div #fourth_section_dashboard .outer .content p {
+      margin: 0px;
+      color: #311631;
+      font-size: 16px;
+      font-family: "Lato", sans-serif; }
+    #dashboard_div #fourth_section_dashboard .outer .content h2 {
+      color: #311631;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+    #dashboard_div #fourth_section_dashboard .outer .content .large_button {
+      border: 1px solid #ffffff;
+      border-radius: 9px;
+      width: 200px;
+      height: 40px;
+      background-color: #311631;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      display: block; }
