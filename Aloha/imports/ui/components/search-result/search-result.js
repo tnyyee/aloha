@@ -1,6 +1,7 @@
 import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
-
+import '../../../../client/main.css';
+import './style_search-result.css';
 
 export const SearchResult = () =>
 <div className="search_result">
@@ -17,29 +18,13 @@ export const SearchResult = () =>
 
   <section id="searchresult_second_section" className ="searchresult_section">
 
-    <div className="searchresult_thread">
-
-      <img className="searchresult_people_photo" src="vectors/search_result/person1_search_result.svg"/>
-
-      <div className="searchresult_grid-container1">
-        <div className="rubrik">Hur klarar man sig utan matlådor?</div>
-        <div className="kategori">Ekonomi</div>
-      </div>
+    <div className="searchresult-grid">
+      <div className="searchresult-grid-box"><img className="profile_img" src="png/search_result/person1_search_result.png"/></div>
+      <div className="searchresult-grid-box"><p>Hur klarar man sig utan matlådor?</p><p id="p2">Ekonomi</p></div>
+      <div className="searchresult-grid-box"><img className="arrow" src="vectors/arrow.svg"/></div>
+      <div className="searchresult-grid-box"><img className="profile_img" src="png/search_result/person2_search_result.png"/></div>
+      <div className="searchresult-grid-box"><p>Sälja eller inte sälja?</p><p id="p2">Ekonomi</p></div>
+      <div className="searchresult-grid-box"><img className="arrow" src="vectors/arrow.svg"/></div>
     </div>
-
-    <div className="searchresult_thread">
-      <img className="searchresult_people_photo" src="vectors/search_result/person2_search_result.svg"/>
-
-      <div className="searchresult_grid-container1">
-        <div className="rubrik">Sälja eller inte sälja?</div>
-        <div className="kategori">Ekonomi</div>
-      </div>
-    </div>
-
-
-    <div className="searchresult_footer">
-      <img className="pineapple" src="vectors/pineapple.svg" />
-    </div>
-
   </section>
 </div>
