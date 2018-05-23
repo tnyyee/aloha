@@ -29,218 +29,23 @@
       color: #ffffff;
       letter-spacing: 0;
       text-align: center; }
-  h3 {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    letter-spacing: 0;
-    text-align: center; }
-  #dashboard_div .dashboard_section {
-    width: 100%;
-    background-color: #311631; }
-  #dashboard_div #first_section_dashboard {
-    margin-bottom: 10px; }
-    #dashboard_div #first_section_dashboard h1 {
-      margin-top: 67px; }
-    #dashboard_div #first_section_dashboard h2 {
-      margin-bottom: 19px;
-      margin-top: 61px; }
-    #dashboard_div #first_section_dashboard .large_button {
-      border: 1px solid #ffffff;
-      border-radius: 9px;
-      width: 273px;
-      height: 52px;
-      background-color: #311631;
+    body h3 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
       color: #ffffff;
-      font-size: 20px;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 83px;
-      margin-bottom: 80px;
-      display: block; }
-    #dashboard_div #first_section_dashboard .picture-grid {
-      margin-left: 16px;
-      margin-right: 16px;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      grid-column-gap: 15px;
-      grid-row-gap: 15px;
-      margin-bottom: 77px; }
-      #dashboard_div #first_section_dashboard .picture-grid .grid-box img {
-        width: 100%; }
-  #dashboard_div .page_break {
-    background-color: #673653;
-    width: 100%;
-    height: 10px;
-    display: grid;
-    grid-template-columns: auto; }
-  #dashboard_div #second_section_dashboard {
-    margin-bottom: 10px; }
-    #dashboard_div #second_section_dashboard h2 {
-      margin-bottom: 44px;
-      margin-top: 61px; }
-    #dashboard_div #second_section_dashboard .thread-grid {
-      margin-top: 44px;
-      margin-left: 16px;
-      margin-right: 16px;
-      display: grid;
-      grid-template-columns: 20% 75% 5%;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      margin-bottom: 77px; }
-      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box {
-        margin-bottom: 20px; }
-        #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box p {
-          font-size: 16px;
-          font-family: "Lato", sans-serif;
-          font-weight: 400;
-          margin-top: 12px;
-          margin-left: 5px;
-          margin-bottom: 0px; }
-        #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box #p2 {
-          margin-top: 0px;
-          font-weight: 300; }
-        #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box .arrow {
-          margin-top: 11px;
-          margin-left: 2px; }
-  .small_button {
-    font-size: 14px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    font-weight: 400;
-    text-align: center;
-    background-color: #311631;
-    width: 81px;
-    height: 21px;
-    color: #ffffff;
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto; }
-  #firstSection {
-    width: 100%;
-    margin: 0; }
-    #firstSection .rubrik_thread {
-      text-align: center;
-      margin-top: 30px; }
-    #firstSection #skapadtradav {
-      text-align: center;
-      margin: 0px;
-      margin-top: -10px;
-      font-family: "Lato", sans-serif;
-      font-size: 16px;
-      font-weight: 100; }
-    #firstSection #lovenbergText {
-      margin-top: 40px;
-      font-weight: 400; }
-    #firstSection .person1 {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
-    #firstSection #fraga {
-      font-size: 16px;
-      font-weight: 300;
-      text-align: left;
-      margin-left: 32px;
-      margin-right: 26px;
-      line-height: 22px;
-      margin-top: 35px;
-      margin-bottom: 30px; }
-  .bryt {
-    background-color: #673653;
-    height: 15px;
-    -ms-flex-line-pack: left;
-    align-content: left;
-    width: 110%;
-    margin-left: -15px; }
-  .thread_sections .thread_people_photo {
-    border: 2px solid #ffffff;
-    width: 63px;
-    height: 63px;
-    border-radius: 100%;
-    margin-top: 19px;
-    margin-left: 8px;
-    margin-right: 17px;
-    float: left; }
-  .thread_sections .namn {
-    grid-area: namn; }
-  .thread_sections .stad {
-    grid-area: stad; }
-  .thread_sections .grid-container1 {
-    display: grid;
-    float: left;
-    grid-template-areas: 'namn namn' 'stad stad'; }
-  .thread_sections .namn {
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 32px; }
-  .thread_sections .stad {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 5px; }
-  .thread_sections .check {
-    float: right;
-    margin-right: 10px;
-    margin-top: 25px; }
-  .thread_sections .betyg {
-    font-size: 16px;
-    font-weight: 300;
-    float: right;
-    margin-top: 38px;
-    margin-right: -11px; }
-  .thread_sections .cross {
-    float: right;
-    margin-top: 30px;
-    margin-right: -11px; }
-  .thread_sections .svar {
-    font-size: 14px;
-    font-weight: 300;
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 55px;
-    margin-right: 50px;
-    margin-bottom: 50px; }
-  .bryt_profile {
-    background-color: #673653;
-    height: 9px;
-    -ms-flex-line-pack: left;
-    align-content: left;
-    width: 110%;
-    margin-left: -15px; }
-  #first_profile_section .rubrik {
-    font-size: 22px;
-    font-weight: 400;
-    font-family: "Roboto", sans-serif; }
-  #first_profile_section .tradantal {
-    grid-area: tradantal; }
-  #first_profile_section .tradar {
-    grid-area: tradar; }
-  #first_profile_section .34k {
-    grid-area: tusen; }
-  #first_profile_section .foljare {
-    grid-area: foljare; }
-  #first_profile_section .antalfoljer {
-    grid-area: antalfoljer; }
-  #first_profile_section .foljer {
-    grid-area: foljer; }
-  #first_profile_section #profilbild_profile {
-    float: left;
-    margin-left: 20px;
-    margin-top: 20px; }
-  #first_profile_section .grid-container_profile1 {
-    display: grid;
-    grid-gap: 10px;
-    margin-top: 20px;
-    padding: 10px;
-    float: left;
-    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; } }
+      letter-spacing: 0;
+      text-align: center; }
+    body a:-webkit-any-link {
+      color: white;
+      text-decoration: none; }
+    body .bryt_profile {
+      background-color: #673653;
+      height: 9px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; } }
 
 @media screen and (max-width: 700px) {
   .search_result .searchresult_section {
@@ -267,35 +72,34 @@
       height: 52px;
       margin-top: 83px; }
   .search_result #searchresult_second_section {
-    margin-top: 83px;
-    margin-left: 50px; }
-    .search_result #searchresult_second_section .searchresult_thread {
-      float: left; }
-      .search_result #searchresult_second_section .searchresult_thread .searchresult_people_photo {
-        border: 2px solid #ffffff;
-        width: 63px;
-        height: 63px;
-        border-radius: 100%;
-        margin-top: 19px;
-        margin-left: 8px;
-        margin-right: 17px;
-        float: left; }
-      .search_result #searchresult_second_section .searchresult_thread .rubrik {
-        grid-area: rubrik; }
-      .search_result #searchresult_second_section .searchresult_thread .kategori {
-        grid-area: kategori; }
-      .search_result #searchresult_second_section .searchresult_thread .searchresult_grid-container1 {
-        display: grid;
-        float: left;
-        grid-template-areas: 'rubrik rubrik' 'kategori kategori'; }
-      .search_result #searchresult_second_section .searchresult_thread .rubrik {
-        font-size: 16px;
-        font-weight: 700;
-        margin-top: 32px; }
-      .search_result #searchresult_second_section .searchresult_thread .kategori {
-        font-size: 14px;
-        font-weight: 400;
-        padding-top: 5px; }
+    margin-bottom: 10px; }
+    .search_result #searchresult_second_section .searchresult-grid {
+      margin-top: 44px;
+      margin-left: 16px;
+      margin-right: 16px;
+      display: grid;
+      grid-template-columns: 20% 75% 5%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      margin-bottom: 77px; }
+      .search_result #searchresult_second_section .searchresult-grid .searchresult-grid-box {
+        margin-bottom: 20px; }
+        .search_result #searchresult_second_section .searchresult-grid .searchresult-grid-box p {
+          font-size: 16px;
+          font-family: "Lato", sans-serif;
+          font-weight: 400;
+          margin-top: 12px;
+          margin-left: 5px;
+          margin-bottom: 0px; }
+        .search_result #searchresult_second_section .searchresult-grid .searchresult-grid-box #p2 {
+          margin-top: 0px;
+          font-weight: 300; }
+        .search_result #searchresult_second_section .searchresult-grid .searchresult-grid-box .arrow {
+          margin-top: 11px;
+          margin-left: 2px; }
     .search_result #searchresult_second_section .searchresult_footer {
       position: fixed;
       bottom: 0;

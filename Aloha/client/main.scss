@@ -88,6 +88,10 @@ $break-small: 700px;
       text-align:center;
     }
 
+    a:-webkit-any-link {
+      color: white;
+      text-decoration: none;
+    }
     //******************** Thread *****************************
 
 

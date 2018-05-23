@@ -3,7 +3,7 @@ import React, { Component, PropTypes } from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-
+import Hamburger from '../hamburger/hamburger.js';
 import Popup from "reactjs-popup";
 
 import './style_dashboard.css';
@@ -23,8 +23,8 @@ export class Dashboard extends Component{
     console.log(this.props)
     return (
       <div id="dashboard_div">
+        <Hamburger/>
         <section id="first_section_dashboard" className ="dashboard_section">
-          <img className="burger" src="vectors/meny.svg"/>
           <h1>ALOHA!</h1>
           <p>{this.props.currentUser.profile.name}</p>
           <button className="large_button">Alla trådar</button>

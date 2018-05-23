@@ -36,6 +36,9 @@
       color: #ffffff;
       letter-spacing: 0;
       text-align: center; }
+    body a:-webkit-any-link {
+      color: white;
+      text-decoration: none; }
     body .bryt_profile {
       background-color: #673653;
       height: 9px;

@@ -11,6 +11,7 @@ import Task from '../../Task.js';
 
 import '../../../../client/main.css';
 import './style_thread.css';
+import Hamburger from '../hamburger/hamburger.js';
 
 export class Thread extends Component{
   constructor(props) {

@@ -36,7 +36,7 @@
     color: #ffffff;
     letter-spacing: 0;
     text-align: center; }
-<<<<<<< HEAD
+
   #dashboard_div .dashboard_section {
     width: 100%;
     background-color: #311631; }
@@ -186,7 +186,7 @@
     margin-left: 50px;
     margin-right: 50px; }
     .search #search_first_section .search_wrapper p {
-=======
+
   .small_button {
     font-size: 14px;
     border: 1px solid #ffffff;
@@ -208,14 +208,13 @@
       text-align: center;
       margin-top: 30px; }
     #firstSection #skapadtradav {
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
       text-align: center;
       margin: 0px;
       margin-top: -10px;
       font-family: "Lato", sans-serif;
       font-size: 16px;
       font-weight: 100; }
-<<<<<<< HEAD
+
   .search #search_first_section .search_footer {
     position: fixed;
     bottom: 0;
@@ -271,27 +270,20 @@
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-<<<<<<< HEAD
+
     justify-content: center; }
     .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
       text-align: center;
-=======
-<<<<<<< HEAD
+
     justify-content: center; }
     .search #search_first_section .search_wrapper .search_large_button {
       text-align: center;
-=======
     justify-content: center;
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
       background-color: #311631;
       color: #ffffff;
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
       font-weight: 400;
       width: 273px;
       height: 52px;
@@ -339,9 +331,6 @@
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
-=======
->>>>>>> f713841d5c9ddc92959ffd07a45d6eee5e78bc56
->>>>>>> 31d5875348c093bef4dcdd876029c1fc9dabbc3d
       font-weight: 400;
       width: 273px;
       height: 52px;
