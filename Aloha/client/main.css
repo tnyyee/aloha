@@ -28,6 +28,7 @@
       color: #ffffff;
       letter-spacing: 0;
       text-align: center; }
+<<<<<<< HEAD
   h3 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -247,32 +248,14 @@
     margin-left: 50px;
     margin-right: 50px; }
     .search #search_first_section .search_wrapper p {
+=======
+    body h3 {
+>>>>>>> e71a340ce551b8fc3cf7226efc39762d667b8d09
       text-align: center;
-      margin: 0px;
-      margin-top: -10px;
-      font-family: "Lato", sans-serif;
-      font-size: 16px;
-      font-weight: 100; }
-  .search #search_first_section .search_footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%; }
-  .search_result .searchresult_section {
-    width: 100%; }
-  .search_result #searchresult_first_section .searchresult_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .search_result #searchresult_first_section .searchresult_wrapper .searchresult_large_button {
-      text-align: center;
-      background-color: #311631;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
       color: #ffffff;
+<<<<<<< HEAD
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
@@ -313,3 +296,7 @@
       position: fixed;
       bottom: 0;
       width: 100%; }
+=======
+      letter-spacing: 0;
+      text-align: center; } }
+>>>>>>> e71a340ce551b8fc3cf7226efc39762d667b8d09

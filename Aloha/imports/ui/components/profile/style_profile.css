@@ -1,0 +1,171 @@
+@media screen and (max-width: 700px) {
+  body {
+    background-color: #311631;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%; }
+    body .burger {
+      padding: 15px; }
+    body .pineapple {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-top: 45px; }
+    body h1 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #ffffff;
+      margin: 80px; }
+    body h2 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body h3 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; } }
+
+@media screen and (max-width: 700px) {
+  .bryt_profile {
+    background-color: #673653;
+    height: 9px;
+    clear: both;
+    -ms-flex-line-pack: left;
+    align-content: left;
+    width: 110%;
+    margin-left: -15px;
+    margin-top: 100px;
+    margin-bottom: 30px; }
+  #first_profile_section .rubrik_profile {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif; }
+  #first_profile_section .tradantal {
+    grid-area: tradantal; }
+  #first_profile_section .tradar {
+    grid-area: tradar; }
+  #first_profile_section .trefyra {
+    grid-area: tusen; }
+  #first_profile_section .foljare {
+    grid-area: foljare; }
+  #first_profile_section .antalfoljer {
+    grid-area: antalfoljer; }
+  #first_profile_section .foljer {
+    grid-area: foljer; }
+  #first_profile_section .grid-container_profile1 {
+    display: grid;
+    margin-left: 40px;
+    grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
+  #first_profile_section .tradar, #first_profile_section .foljare, #first_profile_section .foljer {
+    font-weight: 300;
+    font-family: "Lato", sans-serif; }
+  #first_profile_section .tradantal, #first_profile_section .trefyra, #first_profile_section .antalfoljer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-top: -20px; }
+  #first_profile_section .small_button_profile {
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #311631;
+    width: 81px;
+    height: 21px;
+    color: #ffffff;
+    display: block;
+    margin-left: 28px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    clear: both; }
+  #first_profile_section #profile_info .profile_info_text {
+    margin-left: 28px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300; }
+  #first_profile_section #sthlm {
+    float: left;
+    margin-left: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300; }
+  #first_profile_section #mitten {
+    margin-top: 3px;
+    margin-bottom: 3px; }
+  #first_profile_section #plupp {
+    margin-top: 15px;
+    margin-left: 28px;
+    float: left;
+    width: 20px; }
+  #second_profile_section {
+    margin-bottom: 300px; }
+    #second_profile_section #publtrad {
+      margin-top: 50px;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    #second_profile_section .tradar {
+      float: left;
+      width: 100%;
+      margin-left: 26px; }
+      #second_profile_section .tradar .profamne {
+        font-weight: 400;
+        float: left;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        margin-bottom: 0px; }
+      #second_profile_section .tradar .profkategori {
+        font-weight: 100;
+        float: left;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        margin-top: 0px;
+        clear: both; }
+      #second_profile_section .tradar .prof_arrow {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        float: right;
+        margin-right: 55px; }
+  #third_profile_section {
+    margin-bottom: 230px; }
+    #third_profile_section #publtrad {
+      margin-top: 50px;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    #third_profile_section .tradar {
+      float: left;
+      width: 100%;
+      margin-left: 26px; }
+      #third_profile_section .tradar .profamne {
+        font-weight: 400;
+        float: left;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        margin-bottom: 0px; }
+      #third_profile_section .tradar .profkategori {
+        font-weight: 100;
+        float: left;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        margin-top: 0px;
+        clear: both; }
+      #third_profile_section .tradar .prof_arrow {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        float: right;
+        margin-right: 55px; } }
