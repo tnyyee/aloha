@@ -15,6 +15,8 @@ export const SearchResult = () =>
     </div>
   </section>
 
+
+
   <section id="searchresult_second_section" className ="searchresult_section">
 
     <div className="searchresult_thread">
@@ -30,10 +32,13 @@ export const SearchResult = () =>
     <div className="searchresult_thread">
       <img className="searchresult_people_photo" src="vectors/search_result/person2_search_result.svg"/>
 
-      <div className="searchresult_grid-container1">
-        <div className="rubrik">Sälja eller inte sälja?</div>
-        <div className="kategori">Ekonomi</div>
-      </div>
+      <Link to="/thread">
+        <div className="searchresult_grid-container1">
+          <div className="rubrik">Sälja eller inte sälja?</div>
+          <div className="kategori">Ekonomi</div>
+        </div>
+      </Link>
+
     </div>
 
 
