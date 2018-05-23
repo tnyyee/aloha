@@ -43,7 +43,7 @@ $break-small: 700px;
 @media screen and (max-width: $break-small){
   body{
     background-color: $primary-purple;
-    color: white;
+    color:white;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -93,7 +93,13 @@ $break-small: 700px;
 
     //******************** Login *****************************
 
-
+    .bryt_profile {
+      background-color: $secondary-purple;
+      height: 9px;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px;
+    }
 
     //******************** Profile *****************************
 
