@@ -45,38 +45,10 @@ class App extends Component {
     }.bind(this), 200)
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
-    // Find the text field via the React ref
-    const text = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
-
-    Tasks.insert({
-      text,
-      createdAt: new Date(), // current time
-      owner: Meteor.userId(),           // _id of logged in user
-      username: Meteor.user().username,  // username of logged in user
-    });
-
-
-
-    // Clear form
-    ReactDOM.findDOMNode(this.refs.textInput).value = '';
-  }
-
-  renderTasks() {
-    let filteredTasks = this.props.tasks;
-    if (this.state.hideCompleted) {
-      filteredTasks = filteredTasks.filter(task => !task.checked);
-    }
-    return filteredTasks.map((task) => (
-      <Task key={task._id} task={task} />
-    ));
-  }
-
-
   render() {
 
     let currentUser = this.props.currentUser;
+    let tasks = this.props.currentTasks;
 
     if(this.state.render) {
       if(currentUser) {
@@ -89,7 +61,8 @@ class App extends Component {
               <Route exact path="/profile" component={Profile}/>
               <Route path="/search" component={Search}/>
               <Route path="/searchresult" component={SearchResult}/>
-              <Route path="/thread" component={Thread}/>
+            {/*<Route path="/thread" component={Thread}/>*/}
+              <Route exact path="/thread" component={() => <Thread currentUser={currentUser} currentTasks={tasks}/>}/>
             </div>
           </Router>
         );
@@ -123,6 +96,7 @@ export default withTracker(() => {
     // tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
     // incompleteCount: Tasks.find({ checked: { $ne: true } }).count(),
     currentUser: Meteor.user(),
+    tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
     //points: Points.find({})
     // this.props.theData;
     //const email: Session.email;

@@ -35,7 +35,14 @@
       font-size: 18px;
       color: #ffffff;
       letter-spacing: 0;
-      text-align: center; } }
+      text-align: center; }
+    body .bryt_profile {
+      background-color: #673653;
+      height: 9px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; } }
 
 @media screen and (max-width: 700px) {
   .bryt_profile {
@@ -75,6 +82,10 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     padding-top: -20px; }
+  #first_profile_section #profilbild_profile {
+    float: left;
+    margin-left: 20px;
+    margin-top: 200px; }
   #first_profile_section .small_button_profile {
     font-size: 14px;
     border: 1px solid #ffffff;
