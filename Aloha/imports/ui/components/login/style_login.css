@@ -358,33 +358,46 @@
   .login .login_frontpage_buttons {
     text-align: center; }
   .login .user_button {
-    font-size: 20px;
     background-color: #47b39c;
     border-color: #47b39c;
-    border-radius: 10px;
-    height: 10%;
-    width: 80%; }
+    border-radius: 9px;
+    width: 275px;
+    height: 54px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center; }
+  .login .login-buttons-dropdown-align- {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff; }
   .login .facebook_button {
     font-size: 20px;
     background-color: #311631;
     border: 1px solid #ffffff;
     font-weight: 400;
     font-size: 20px;
+    color: #ffffff;
     border-radius: 9px;
-    color: #ffffff; }
+    width: 273px;
+    height: 52px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center; }
   .login .login_facebook_img {
+    margin-top: auto;
+    margin-left: 11px;
     float: left;
-    margin-left: 15px;
-    margin-top: 15px; }
+    width: 11px;
+    height: 21px; }
   .login .login_button_divider {
     height: 15px; }
   .login #signUp_text {
     color: #47b39c;
     height: auto; }
   .login .accounts-dialog {
-    background-color: #ffffff; }
-  .login .login-buttons-dropdown-align- {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    color: #ffffff; } }
+    background-color: #ffffff; } }
