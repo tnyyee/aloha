@@ -83,7 +83,8 @@ class App extends Component {
         return (
           <Router>
             <div>
-              <Route exact path="/" component={Dashboard}/>
+            {/*<Route exact path="/" component={() => <Dashboard points={this.props.points} currentUser={currentUser}/>}/>*/}
+              <Route exact path="/" component={() => <Dashboard currentUser={currentUser}/>}/>
               <Route exact path="/login" component={Login}/>
               <Route exact path="/profile" component={Profile}/>
               <Route path="/search" component={Search}/>
@@ -121,8 +122,8 @@ export default withTracker(() => {
   return {
     // tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
     // incompleteCount: Tasks.find({ checked: { $ne: true } }).count(),
-    currentUser: Meteor.user()
-
+    currentUser: Meteor.user(),
+    //points: Points.find({})
     // this.props.theData;
     //const email: Session.email;
     //const email Session.get('email');

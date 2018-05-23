@@ -81,6 +81,20 @@
           background-color: $white;
         }
 
+        #login-dropdown-list{
+          background-color: $primary-purple;
+        }
+        .login-close-text,.or-text, #login-username-label,
+        #login-password-label, #signup-link
+        {
+          color: $white;
+          font-family:Lato-Regular;
+          font-size:16px;
+        }
+        #login-buttons-github, #login-buttons-password, #login-buttons-logout {
+          background-color: $primary-green;
+
+        }
 
     }
   }

@@ -1,0 +1,92 @@
+@media screen and (max-width: 700px) {
+  body {
+    background-color: #311631;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%; }
+    body .burger {
+      padding: 15px; }
+    body .pineapple {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-top: 45px; }
+    body h1 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #ffffff;
+      margin: 80px; }
+    body h2 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body h3 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body .bryt_profile {
+      background-color: #673653;
+      height: 9px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; } }
+
+@media screen and (max-width: 700px) {
+  .search .search_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .search .search_wrapper .search_large_button {
+      text-align: center;
+      background-color: #311631;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 9px;
+      font-size: 20px;
+      font-weight: 400;
+      width: 273px;
+      height: 52px;
+      margin-top: 83px; }
+  .search .search_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px; }
+    .search .search_wrapper p {
+      text-align: center;
+      margin: 0px;
+      margin-top: -10px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: 100; }
+  .search .search_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; } }

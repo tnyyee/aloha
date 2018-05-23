@@ -1,0 +1,215 @@
+@media screen and (max-width: 700px) {
+  body {
+    background-color: #311631;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%; }
+    body .burger {
+      padding: 15px; }
+    body .pineapple {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-top: 45px; }
+    body h1 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #ffffff;
+      margin: 80px; }
+    body h2 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body h3 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center; }
+    body .bryt_profile {
+      background-color: #673653;
+      height: 9px;
+      -ms-flex-line-pack: left;
+      align-content: left;
+      width: 110%;
+      margin-left: -15px; } }
+
+#dashboard_div .dashboard_section {
+  width: 100%;
+  background-color: #311631; }
+
+#dashboard_div #first_section_dashboard {
+  margin-bottom: 10px; }
+  #dashboard_div #first_section_dashboard h1 {
+    margin-top: 67px;
+    margin-bottom: 0px; }
+  #dashboard_div #first_section_dashboard h2 {
+    margin-bottom: 19px;
+    margin-top: 61px; }
+  #dashboard_div #first_section_dashboard p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px; }
+  #dashboard_div #first_section_dashboard .large_button {
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    width: 273px;
+    height: 52px;
+    background-color: #311631;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 83px;
+    margin-bottom: 80px;
+    display: block; }
+  #dashboard_div #first_section_dashboard .picture-grid {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-bottom: 77px; }
+    #dashboard_div #first_section_dashboard .picture-grid .grid-box img {
+      width: 100%; }
+
+#dashboard_div .page_break {
+  background-color: #673653;
+  width: 100%;
+  height: 10px;
+  display: grid;
+  grid-template-columns: auto; }
+
+#dashboard_div #second_section_dashboard {
+  margin-bottom: 10px; }
+  #dashboard_div #second_section_dashboard h2 {
+    margin-bottom: 46px;
+    margin-top: 79px; }
+  #dashboard_div #second_section_dashboard .thread-grid {
+    margin-top: 44px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: grid;
+    grid-template-columns: 20% 75% 5%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 77px; }
+    #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box {
+      margin-bottom: 20px; }
+      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box p {
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        margin-top: 12px;
+        margin-left: 5px;
+        margin-bottom: 0px; }
+      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box #p2 {
+        margin-top: 0px;
+        font-weight: 300; }
+      #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box .arrow {
+        margin-top: 11px;
+        margin-left: 2px; }
+
+#dashboard_div #third_section_dashboard h2 {
+  margin-bottom: 46px;
+  margin-top: 79px; }
+
+#dashboard_div #third_section_dashboard p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  margin-bottom: 15px;
+  margin-top: 0px; }
+
+#dashboard_div #third_section_dashboard .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  margin-bottom: 78px; }
+  #dashboard_div #third_section_dashboard .container .small_button {
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #311631;
+    width: 81px;
+    height: 21px;
+    color: #ffffff;
+    display: block;
+    margin: 0px; }
+  #dashboard_div #third_section_dashboard .container img {
+    margin-bottom: 27px; }
+
+#dashboard_div #fourth_section_dashboard h2 {
+  margin-bottom: 58px;
+  margin-top: 79px; }
+
+#dashboard_div #fourth_section_dashboard img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 49px; }
+
+#dashboard_div #fourth_section_dashboard .textbox {
+  margin: auto;
+  width: 245px;
+  height: auto;
+  margin-bottom: 51px; }
+  #dashboard_div #fourth_section_dashboard .textbox p {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal; }
+
+#dashboard_div #fourth_section_dashboard .outer {
+  margin: auto;
+  margin-right: 0px; }
+  #dashboard_div #fourth_section_dashboard .outer .close {
+    color: black; }
+  #dashboard_div #fourth_section_dashboard .outer .content {
+    padding: 0px;
+    margin: auto;
+    padding: 10px 5px; }
+    #dashboard_div #fourth_section_dashboard .outer .content p {
+      margin: 0px;
+      color: #311631;
+      font-size: 16px;
+      font-family: "Lato", sans-serif; }
+    #dashboard_div #fourth_section_dashboard .outer .content h2 {
+      color: #311631;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+    #dashboard_div #fourth_section_dashboard .outer .content .large_button {
+      border: 1px solid #ffffff;
+      border-radius: 9px;
+      width: 200px;
+      height: 40px;
+      background-color: #311631;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      display: block; }
