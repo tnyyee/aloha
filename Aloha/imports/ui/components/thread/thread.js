@@ -2,6 +2,7 @@ import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
 import './style_thread.css';
+import Hamburger from '../hamburger/hamburger.js';
 
 // componentWillMount() {
 //   this.state = {
@@ -26,8 +27,9 @@ export const Thread = () =>
   // )
 
     <div>
+    <Hamburger/>
       <section id="firstSection" className="thread_sections">
-        <img className="burger" src="vectors/meny.svg" />
+
         <h2 className="rubrik_thread">Sälja eller inte sälja?</h2>
         <p id="skapadtradav">Tråd skapad av</p>
         <h2 id="lovenbergText">lovenberg</h2>

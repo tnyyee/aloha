@@ -2,13 +2,13 @@ import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
 import './style_search.css';
+import Hamburger from '../hamburger/hamburger.js';
 
 export const Search = () =>
   <div className="search">
 
-
-      <img className="burger" src="vectors/meny.svg" />
-
+      <Hamburger/>
+    
       <h2>Alla trådar</h2>
 
       <div className="search_wrapper">

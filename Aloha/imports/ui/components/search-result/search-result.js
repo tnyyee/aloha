@@ -2,12 +2,12 @@ import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
 import './style_search-result.css';
+import Hamburger from '../hamburger/hamburger.js';
 
 export const SearchResult = () =>
 <div className="search_result">
+  <Hamburger/>
   <section id="searchresult_first_section" className ="searchresult_section">
-
-    <img className="burger" src="vectors/meny.svg" />
 
     <h2>Alla trådar</h2>
 
