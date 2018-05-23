@@ -28,7 +28,7 @@
       color: #ffffff;
       letter-spacing: 0;
       text-align: center; }
-<<<<<<< HEAD
+
   h3 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -186,7 +186,7 @@
     grid-area: tradantal; }
   #first_profile_section .tradar {
     grid-area: tradar; }
-  #first_profile_section .34k {
+  #first_profile_section .trefyra {
     grid-area: tusen; }
   #first_profile_section .foljare {
     grid-area: foljare; }
@@ -248,14 +248,11 @@
     margin-left: 50px;
     margin-right: 50px; }
     .search #search_first_section .search_wrapper p {
-=======
-    body h3 {
->>>>>>> e71a340ce551b8fc3cf7226efc39762d667b8d09
       text-align: center;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
       color: #ffffff;
-<<<<<<< HEAD
+
       border: 1px solid #ffffff;
       border-radius: 9px;
       font-size: 20px;
@@ -296,7 +293,3 @@
       position: fixed;
       bottom: 0;
       width: 100%; }
-=======
-      letter-spacing: 0;
-      text-align: center; } }
->>>>>>> e71a340ce551b8fc3cf7226efc39762d667b8d09
