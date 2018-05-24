@@ -3,27 +3,56 @@ import React, { Component, PropTypes } from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
+import '../../App.js';
+import { Tasks } from '../../../api/tasks.js';
+import { Mongo } from 'meteor/mongo';
 
 import Popup from "reactjs-popup";
 
 import './style_dashboard.css';
+import '../../../../client/main.css';
+
+
+
+
 
 export class Dashboard extends Component{
   constructor(props) {
     super(props);
     this.state = {
       hideCompleted: false,
+
     };
+    this.deleteComment = this.deleteComment.bind(this)
+  }
+  addComments(event){
+     //Gör så att denna funktion inte körs hela tiden.
+    event.preventDefault();
+    var text = this.refs.comment.value.trim();
+    var currentUser = this.props.currentUser.profile.name
+    Meteor.call('addComments', text, currentUser);
+
+    console.log(text);
+
+  }
+  deleteComment(event){
+
+    Meteor.call('deleteComment', event.target.id);
   }
   handleClick() {
     window.location = 'http://unnderbar.se/';
   }
-  onCreate(data, diff) {
-   // Save data into the  databasehere!
-   console.log(data); // { title: 'title of this vote', items: [{ title: 'option1', count: 5, voters: ['a', 'b', 'c', 'd', 'e'] }, { title: 'option2', count: 3, voters: ['f', 'g', 'h'] }], closed: false, multiple: false, expansion: false, voters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'] }
-  }
 
   render() {
+    const comments = this.props.currentComments.map(comment => {
+      return(
+        <div>
+          {/*<p key={this.props.currentUser._id}>{this.props.currentUser.profile.name}</p>*/}
+          <p id={comment._id} onClick={this.deleteComment} key={comment._id}>{comment.text}</p>
+        </div>
+      )
+    })
+
     console.log(this.props)
     return (
       <div id="dashboard_div">
@@ -69,10 +98,10 @@ export class Dashboard extends Component{
           <div className="container">
             <p>isabellewe</p>
             <p>juliiie</p>
-            <p>isabellewe</p>
+            <p>lovenberg</p>
             <img src="png/dashboard/person6_dashboard.png"/>
             <img src="png/dashboard/person7_dashboard.png"/>
-            <img src="png/dashboard/person8_dashboard.png"/>
+            <Link to="/profile"><img src="png/dashboard/person8_dashboard.png"/></Link>
             <button className="small_button">Följ + </button>
             <button className="small_button">Följ + </button>
             <button className="small_button">Följ + </button>
@@ -125,6 +154,15 @@ export class Dashboard extends Component{
         </section>
         <div className="page_break"></div>
         <section id="fifth_section_dashboard" className ="dashboard_section">
+          <h2>my resolution</h2>
+          <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
+            <input
+              type="text"
+              ref="comment"
+              placeholder="Finish React Meteor Series" />
+          </form>
+
+            {comments}
 
         </section>
       </div>

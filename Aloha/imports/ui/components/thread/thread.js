@@ -148,7 +148,6 @@ export const Thread = () =>
 
       <button className="small_button">+</button>
 
-
       <img className="pineapple" src="vectors/pineapple.svg" />
 
 

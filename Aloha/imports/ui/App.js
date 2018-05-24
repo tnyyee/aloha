@@ -10,7 +10,7 @@ import { Redirect } from 'react-router-dom';
 import { getUser as getU } from '../api/get-user.js';
 import ReactTimeout from 'react-timeout';
 // copy from
-
+import {Comments} from '../api/comments.js';
 
 // components
 import { Dashboard } from './components/dashboard/dashboard.js';
@@ -77,6 +77,7 @@ class App extends Component {
   render() {
 
     let currentUser = this.props.currentUser;
+    let currentComments = this.props.comments;
 
     if(this.state.render) {
       if(currentUser) {
@@ -84,7 +85,7 @@ class App extends Component {
           <Router>
             <div>
             {/*<Route exact path="/" component={() => <Dashboard points={this.props.points} currentUser={currentUser}/>}/>*/}
-              <Route exact path="/" component={() => <Dashboard currentUser={currentUser}/>}/>
+              <Route exact path="/" component={() => <Dashboard currentComments={currentComments} currentUser={currentUser}/>}/>
               <Route exact path="/login" component={Login}/>
               <Route exact path="/profile" component={Profile}/>
               <Route path="/search" component={Search}/>
@@ -118,14 +119,13 @@ export default withTracker(() => {
   // if (Meteor.user()) {
   //   let user = getU(Meteor.user());
   // }
+  Meteor.subscribe('comments_publication');
   const handle = Meteor.subscribe();
   return {
-    // tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
-    // incompleteCount: Tasks.find({ checked: { $ne: true } }).count(),
+    tasks: Tasks.find({}, { sort: { createdAt: -1 } }).fetch(),
+    incompleteCount: Tasks.find({ checked: { $ne: true } }).count(),
     currentUser: Meteor.user(),
-    //points: Points.find({})
-    // this.props.theData;
-    //const email: Session.email;
-    //const email Session.get('email');
+    email: Session.get('email'),
+    comments: Comments.find({}).fetch(),
   };
 })(App);
