@@ -59,7 +59,7 @@ export class Thread extends Component{
 
       <div>
         <section id="firstSection" className="thread_sections">
-          <img className="burger" src="vectors/meny.svg" />
+        <Hamburger/>
           <h2 className="rubrik_thread">Sälja eller inte sälja?</h2>
           <p id="skapadtradav">Tråd skapad av</p>
           <h2 id="lovenbergText">lovenberg</h2>

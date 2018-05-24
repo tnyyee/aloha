@@ -62,7 +62,6 @@ export class Dashboard extends Component{
         <Hamburger/>
         <section id="first_section_dashboard" className ="dashboard_section">
           <h1>ALOHA!</h1>
-          <p>{this.props.currentUser.profile.name}</p>
           <button className="large_button">Alla trådar</button>
           <h2>Aktuella trådar</h2>
           <div className="picture-grid">
