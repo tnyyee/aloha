@@ -2,6 +2,7 @@ import React from 'react';
 import {withHistory, Link} from 'react-router-dom';
 import '../../../../client/main.css';
 import './style_profile.css';
+import Hamburger from '../hamburger/hamburger.js';
 
 // <div>
 //   Profile works
@@ -10,9 +11,8 @@ import './style_profile.css';
 
 export const Profile = () =>
   <div>
-
+    <Hamburger/>
     <section id="first_profile_section">
-      <img className="burger" src="vectors/meny.svg" />
       <h2 id="rubrik_profile">lovenberg</h2>
 
       <img id="profilbild_profile" src="png/profile/person1_profile.png" />
