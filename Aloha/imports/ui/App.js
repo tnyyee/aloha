@@ -66,7 +66,7 @@ class App extends Component {
               <Route path="/search" component={Search}/>
               <Route path="/searchresult" component={SearchResult}/>
             {/*<Route path="/thread" component={Thread}/>*/}
-              <Route exact path="/thread" component={() => <Thread currentUser={currentUser} currentTasks={tasks}/>}/>
+              <Route exact path="/thread" component={() => <Thread currentComments={currentComments} currentUser={currentUser}/>}/>
             </div>
           </Router>
         );

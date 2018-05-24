@@ -19,42 +19,37 @@ export class Thread extends Component{
     this.state = {
       hideCompleted: false,
     };
+    this.deleteComment = this.deleteComment.bind(this)
+  }
+  addComments(event){
+     //Gör så att denna funktion inte körs hela tiden.
+    event.preventDefault();
+    var text = this.refs.comment.value.trim();
+    var currentUser = this.props.currentUser.profile.name
+    Meteor.call('addComments', text, currentUser);
+
+    console.log(text);
+
+  }
+  deleteComment(event){
+
+    Meteor.call('deleteComment', event.target.id);
   }
   handleClick() {
     //window.location = 'http://unnderbar.se/';
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
-    // Find the text field via the React ref
-    const text = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
-
-    Tasks.insert({
-      text,
-      createdAt: new Date(), // current time
-      //owner: this.props.currentUser.id(),           // _id of logged in user
-      username: this.props.currentUser.username,  // username of logged in user
-    });
-    console.log("Handle submit");
-
-
-    // Clear form
-    ReactDOM.findDOMNode(this.refs.textInput).value = '';
-  }
-
-  renderTasks() {
-    let allTasks = this.props.currentTasks;
-    console.log("render tasks");
-    console.log(allTasks);
-
-    return (
-      <div>{allTasks}</div>
-
-    );
-  }
 
   render() {
-    console.log(this.props)
+    const comments = this.props.currentComments.map(comment => {
+      return(
+        <div>
+          {/*<p key={this.props.currentUser._id}>{this.props.currentUser.profile.name}</p>*/}
+          <p id={comment._id} onClick={this.deleteComment} key={comment._id}>{comment.text}</p>
+        </div>
+      )
+    })
+
     return (
 
       <div>
@@ -176,17 +171,15 @@ export class Thread extends Component{
 
         <button className="small_button">+</button>
 
-        <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
+        <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
           <input
             type="text"
-            ref="textInput"
-            placeholder="Add comment..."
-          />
+            ref="comment"
+            placeholder="Skriv en kommentar" />
+            <button type="submit">Skicka</button>
         </form>
-
-        <ul>
-          {this.renderTasks()}
-        </ul>
+        
+          {comments}
 
         <img className="pineapple" src="vectors/pineapple.svg" />
       </div>

@@ -6,7 +6,6 @@ import Modal from 'react-modal';
 
 import '../../App.js';
 import { Tasks } from '../../../api/tasks.js';
-import { Mongo } from 'meteor/mongo';
 
 import Hamburger from '../hamburger/hamburger.js';
 
@@ -15,10 +14,6 @@ import Popup from "reactjs-popup";
 import './style_dashboard.css';
 import '../../../../client/main.css';
 
-
-
-
-
 export class Dashboard extends Component{
   constructor(props) {
     super(props);
@@ -26,36 +21,12 @@ export class Dashboard extends Component{
       hideCompleted: false,
 
     };
-    this.deleteComment = this.deleteComment.bind(this)
-  }
-  addComments(event){
-     //Gör så att denna funktion inte körs hela tiden.
-    event.preventDefault();
-    var text = this.refs.comment.value.trim();
-    var currentUser = this.props.currentUser.profile.name
-    Meteor.call('addComments', text, currentUser);
-
-    console.log(text);
-
-  }
-  deleteComment(event){
-
-    Meteor.call('deleteComment', event.target.id);
   }
   handleClick() {
     window.location = 'http://unnderbar.se/';
   }
 
   render() {
-    const comments = this.props.currentComments.map(comment => {
-      return(
-        <div>
-          {/*<p key={this.props.currentUser._id}>{this.props.currentUser.profile.name}</p>*/}
-          <p id={comment._id} onClick={this.deleteComment} key={comment._id}>{comment.text}</p>
-        </div>
-      )
-    })
-
     console.log(this.props)
     return (
       <div id="dashboard_div">
@@ -153,19 +124,7 @@ export class Dashboard extends Component{
               </div>
             )}
           </Popup>
-        </section>
-        <div className="page_break"></div>
-        <section id="fifth_section_dashboard" className ="dashboard_section">
-          <h2>my resolution</h2>
-          <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
-            <input
-              type="text"
-              ref="comment"
-              placeholder="Finish React Meteor Series" />
-          </form>
-
-            {comments}
-
+          <img className="pineapple" src="vectors/pineapple.svg" />
         </section>
       </div>
     );
