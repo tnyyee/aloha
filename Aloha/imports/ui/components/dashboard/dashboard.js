@@ -125,10 +125,10 @@ export class Dashboard extends Component{
               </div>
             )}
           </Popup>
+          </section>
           <div className="search_footer">
             <img className="pineapple" src="vectors/pineapple.svg" />
           </div>
-        </section>
         </main>
       </div>
     );

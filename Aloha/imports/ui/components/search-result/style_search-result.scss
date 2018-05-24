@@ -35,12 +35,8 @@ $break-small: 700px;
         }
       }
 
-<<<<<<< HEAD
-      .search_footer{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-=======
+
+
       #searchresult_second_section{
         margin-bottom: 10px;
         .searchresult-grid{
@@ -75,13 +71,14 @@ $break-small: 700px;
           }
         }
 
-        .searchresult_footer{
+        .search_footer{
           position: absolute;
           bottom: 0px;
           width: 100%;
         }
->>>>>>> 8fa332c1b44f67e3f87442f1e036515ec777a491
+
       }
-    }
+
   }
+}
 }

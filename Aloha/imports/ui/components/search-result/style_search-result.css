@@ -72,21 +72,6 @@
           border-radius: 9px;
           font-size: 20px;
           font-weight: 400;
-<<<<<<< HEAD
-          margin-top: 12px;
-          margin-left: 5px;
-          margin-bottom: 0px; }
-        .search_result #searchresult_second_section .searchresult-grid .searchresult-grid-box #p2 {
-          margin-top: 0px;
-          font-weight: 300; }
-        .search_result #searchresult_second_section .searchresult-grid .searchresult-grid-box .arrow {
-          margin-top: 11px;
-          margin-left: 2px; }
-    .search_result #searchresult_second_section .search_footer {
-      position: fixed;
-      bottom: 0;
-      width: 100%; } }
-=======
           width: 273px;
           height: 52px;
           margin-top: 83px; }
@@ -119,8 +104,7 @@
           .search_result #page-wrap #searchresult_second_section .searchresult-grid .searchresult-grid-box .arrow {
             margin-top: 11px;
             margin-left: 2px; }
-      .search_result #page-wrap #searchresult_second_section .searchresult_footer {
+      .search_result #page-wrap #searchresult_second_section .search_footer {
         position: absolute;
         bottom: 0px;
         width: 100%; } }
->>>>>>> 8fa332c1b44f67e3f87442f1e036515ec777a491
