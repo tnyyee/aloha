@@ -28,22 +28,16 @@ class Login extends React.Component{
 
           <h1>ALOHA!</h1>
 
-          <p id="welcomeText">
-          Välkommen till en app som riktar sig till kvinnor,
-          men där vem som helst kan skapa ett konto och vara aktiv i diskutioner.
-          <br></br>
-          <br></br>
-          Här kan du diskutera, jämnföra, dela och inspereras av
-          kvinnor i hela världen.
-          </p>
-
+            <p id="welcomeText" className="login_welcomeText">
+            Välkommen till en app som riktar sig till kvinnor,
+            men där vem som helst kan skapa ett konto och vara aktiv i diskutioner.
+            <br></br>
+            <br></br>
+            Här kan du diskutera, jämnföra, dela och inspereras av
+            kvinnor i hela världen.
+            </p>
 
       </div>
-
-      {/*
-        <h2>{ this.props.email ?
-         this.props.email : ''}</h2>
-      */}
 
       <div className="login_frontpage_buttons">
 
@@ -61,12 +55,6 @@ class Login extends React.Component{
         </h4>
 
       </div>
-
-      {
-        // this.props.currentUser ?
-      //   // <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
-      //   // </form> : ''
-      }
 
       <img className= "pineapple" src="vectors/pineapple.svg"/>
 
