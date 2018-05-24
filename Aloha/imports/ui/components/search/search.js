@@ -8,7 +8,7 @@ export const Search = () =>
   <div className="search">
 
       <Hamburger/>
-    
+
       <h2>Alla trådar</h2>
 
       <div className="search_wrapper">

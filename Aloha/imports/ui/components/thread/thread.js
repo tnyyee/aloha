@@ -178,10 +178,12 @@ export class Thread extends Component{
             placeholder="Skriv en kommentar" />
             <button type="submit">Skicka</button>
         </form>
-        
+
           {comments}
 
-        <img className="pineapple" src="vectors/pineapple.svg" />
+          <div className="search_footer">
+            <img className="pineapple" src="vectors/pineapple.svg" />
+          </div>
       </div>
     );
   }

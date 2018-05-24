@@ -30,10 +30,10 @@ class Login extends React.Component{
 
             <p id="welcomeText" className="login_welcomeText">
             Välkommen till en app som riktar sig till kvinnor,
-            men där vem som helst kan skapa ett konto och vara aktiv i diskutioner.
+            men där vem som helst kan skapa ett konto och vara aktiv i diskussioner.
             <br></br>
             <br></br>
-            Här kan du diskutera, jämnföra, dela och inspereras av
+            Här kan du diskutera, jämföra, dela och inspereras av
             kvinnor i hela världen.
             </p>
 
@@ -56,7 +56,9 @@ class Login extends React.Component{
 
       </div>
 
-      <img className= "pineapple" src="vectors/pineapple.svg"/>
+      <div className="search_footer">
+        <img className="pineapple" src="vectors/pineapple.svg" />
+      </div>
 
       </div>
     );

@@ -27,4 +27,9 @@ export const SearchResult = () =>
       <Link classname="searchResult_link" to="/thread"><div className="searchresult-grid-box"><img className="arrow" src="vectors/arrow.svg"/></div></Link>
     </div>
   </section>
+
+  <div className="search_footer">
+    <img className="pineapple" src="vectors/pineapple.svg" />
+  </div>
+  
 </div>
