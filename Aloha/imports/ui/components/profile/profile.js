@@ -58,11 +58,14 @@ export const Profile = () =>
         <img className="prof_arrow" src="vectors/arrow.svg"/>
       </div>
 
-      <div className="tradar">
-        <p className="profamne">Sälja eller inte sälja?</p>
-        <p className="profkategori">Ekonomi</p>
-        <img className="prof_arrow" src="vectors/arrow.svg"/>
-      </div>
+      <Link className="profile_link" to="/thread">
+        <div className="tradar">
+          <p className="profamne">Sälja eller inte sälja?</p>
+          <p className="profkategori">Ekonomi</p>
+          <img className="prof_arrow" src="vectors/arrow.svg"/>
+        </div>
+      </Link>
+
 
     </section>
 

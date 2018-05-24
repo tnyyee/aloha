@@ -18,9 +18,10 @@
   #first_profile_section{
 
 
-    .rubrik_profile{
+    #rubrik_profile{
+      margin-top: 70px;
       font-size: 20px;
-      font-weight: $regular;
+      font-weight: $light;
       font-family: $h2_font_family;
 
     }
@@ -33,7 +34,10 @@
     .foljer { grid-area: foljer; }
 
     .grid-container_profile1 {
-      display: grid;
+      margin-top: 25px;
+      grid-gap: 0px 25px;
+      padding: 0px;
+      grid-template-rows: 25px;
       margin-left: 40px;
       grid-template-areas:
         ' tradantal tusen antalfoljer'
@@ -41,22 +45,23 @@
         ' tradar foljare foljer';
     }
 
+    .tradantal, .trefyra, .antalfoljer{
+      font-family: $h3_font_family;
+      font-weight: $regular;
+      padding-top: -20px;
+
+    }
 
     .tradar, .foljare, .foljer{
       font-weight: $light;
       font-family: $p_font_family;
     }
 
-    .tradantal, .trefyra, .antalfoljer{
-      font-family: $h3_font_family;
-      font-weight: $regular;
-      padding-top: -20px;
-    }
-
     #profilbild_profile{
       float: left;
-      margin-left: 20px;
-      margin-top: 200px;
+      margin-left: 32px;
+      margin-top: 20px;
+      margin-bottom: 10px;
 
     }
 
@@ -71,13 +76,13 @@
       height:21px;
       color: $white;
       display: block;
-      margin-left: 28px;
-      margin-top: -40px;
+      margin-left: 40px;
       margin-bottom: 30px;
       clear:both;
     }
 
     #profile_info{
+      margin-left: 10px;
       .profile_info_text{
         margin-left: 28px;
         font-family: $p_font_family;
@@ -94,8 +99,8 @@
     }
 
     #mitten{
-      margin-top: 3px;
-      margin-bottom: 3px;
+      margin-top: 2px;
+      margin-bottom: 2px;
     }
 
     #plupp{
