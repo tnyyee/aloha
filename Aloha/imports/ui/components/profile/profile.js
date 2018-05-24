@@ -12,6 +12,7 @@ import Hamburger from '../hamburger/hamburger.js';
 export const Profile = () =>
   <div>
     <Hamburger/>
+    <main id="page-wrap">
     <section id="first_profile_section">
       <h2 id="rubrik_profile">lovenberg</h2>
 
@@ -81,4 +82,5 @@ export const Profile = () =>
     </section>
 
     <img className="pineapple" src="vectors/pineapple.svg" />
+    </main>
   </div>

@@ -2,7 +2,9 @@
 
 @media screen and (max-width: $break-small){
 
+  #page-wrap {
 
+    margin-top: 70px;
 
       .small_button{
         font-size: $p_small_font_size;
@@ -166,5 +168,5 @@
             cursor: pointer;
       }
     }
-
+  }
 }
