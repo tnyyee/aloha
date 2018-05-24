@@ -154,15 +154,20 @@
       margin-right: 30px; }
     #page-wrap .new-task {
       margin-bottom: 600px; }
-    #page-wrap form button {
-      background-color: white;
-      /* Green */
-      border: none;
-      color: #311631;
-      padding: 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer; } }
+    #page-wrap form {
+      margin-top: 40px;
+      margin-left: 20%; }
+      #page-wrap form button {
+        background-color: white;
+        /* Green */
+        border: none;
+        border-radius: 3px;
+        color: #311631;
+        padding: 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px 2px 10px;
+        clear: both;
+        cursor: pointer; } }
