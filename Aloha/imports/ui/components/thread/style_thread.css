@@ -170,4 +170,8 @@
         font-size: 16px;
         margin: 4px 2px 2px 10px;
         clear: both;
-        cursor: pointer; } }
+        cursor: pointer; }
+    #page-wrap .search_footer {
+      position: absolute;
+      bottom: 0px;
+      width: 100%; } }

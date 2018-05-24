@@ -35,6 +35,8 @@ $break-small: 700px;
         }
       }
 
+
+
       #searchresult_second_section{
         margin-bottom: 10px;
         .searchresult-grid{
@@ -69,12 +71,14 @@ $break-small: 700px;
           }
         }
 
-        .searchresult_footer{
+        .search_footer{
           position: absolute;
           bottom: 0px;
           width: 100%;
         }
+
       }
-    }
+
   }
+}
 }

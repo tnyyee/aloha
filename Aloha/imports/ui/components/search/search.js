@@ -13,7 +13,7 @@ export const Search = () =>
 
         <div id="h2">
           <h2>Alla trådar</h2>
-        </div>  
+        </div>
 
         <div className="search_wrapper">
           <button className="search_large_button">Sök</button>
