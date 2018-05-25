@@ -28,9 +28,6 @@ export class Thread extends Component{
     var text = this.refs.comment.value.trim();
     var currentUser = this.props.currentUser.profile.name;
     Meteor.call('addComments', text, currentUser);
-
-
-
     console.log(text);
 
   }
