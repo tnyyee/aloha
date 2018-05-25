@@ -120,10 +120,12 @@
     #page-wrap .thread_sections .namn {
       font-size: 16px;
       font-weight: 700;
+      font-family: "Lato", sans-serif;
       margin-top: 32px; }
     #page-wrap .thread_sections .stad {
       font-size: 14px;
       font-weight: 400;
+      font-family: "Lato", sans-serif;
       padding-top: 5px; }
     #page-wrap .thread_sections .check {
       float: right;
@@ -155,7 +157,8 @@
       margin-bottom: 600px; }
     #page-wrap form {
       margin-top: 40px;
-      margin-left: 20%; }
+      margin-left: 20%;
+      height: 20px; }
       #page-wrap form button {
         background-color: white;
         /* Green */
