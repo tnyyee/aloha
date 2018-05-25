@@ -104,10 +104,18 @@
           background-color: $primary-green;
 
         }
-        .login-link-and-dropdown-list login-form-sign-in{
-          position: absolute;
-          align-content: center;
-        }
 
+      #page-wrap form{
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+
+      .accounts-dialog input[type=text], .accounts-dialog input[type=email], .accounts-dialog input[type=password]{
+        width: 80%;
+      }
+      #login-buttons button.login-button{
+        margin-left: 2px;
+        margin-top: 15px;
+      }
     }
   }
