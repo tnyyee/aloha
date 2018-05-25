@@ -31,9 +31,7 @@ export const SearchResult = () =>
       </section>
 
 
-    <div className="search_footer">
-      <img className="pineapple" src="vectors/pineapple.svg" />
-    </div>
+    <img className="pineapple" src="vectors/pineapple.svg" />
   </main>
 
 </div>

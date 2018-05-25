@@ -11,10 +11,13 @@ export default class Hamburger extends React.Component {
   render () {
     return (
       <Menu width={170} customBurgerIcon={ <img src="vectors/meny.svg" /> } pageWrapId={ "page-wrap" } >
-        <br/>
+
         <a id="home" className="menu-item" href="/">Hem</a>
+
         <a id="profile" className="menu-item" href="/profile">Profil</a>
+
         <a id="search" className="menu-item" href="/search">Alla trådar</a>
+
         <a id="login" className="menu-item" href="/login">Logga ut</a>
       </Menu>
     );

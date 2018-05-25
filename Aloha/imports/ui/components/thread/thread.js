@@ -171,7 +171,9 @@ export class Thread extends Component{
 
           <div className="bryt"></div>
 
-          <section className="thread_sections">
+          {comments.length > 0 ?
+             (<div>
+            <section className="thread_sections">
             <img className="thread_people_photo" src="vectors/thread/pineapple.gif"/>
 
             <div className="grid-container1">
@@ -190,24 +192,30 @@ export class Thread extends Component{
             <img className="like" src="png/thread/like_thread.png"/>
             <img className="comment" src="png/thread/comment_thread.png"/>
           </section>
+          </div>
+        )
+        : ''}
+        <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
+          <input
+            type="text"
+            ref="comment"
+            placeholder="Skriv en kommentar" />
+            <button type="submit">Skicka</button>
+        </form>
 
-          <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
-            <input
-              type="text"
-              ref="comment"
-              placeholder="Skriv en kommentar" />
-              <button type="submit">Skicka</button>
-          </form>
 
+
+
+        <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
+          <input
+            type="text"
+            ref="comment"
+            placeholder="Skriv en kommentar" />
+            <button type="submit">Skicka</button>
+        </form>
 
 
           <img className="pineapple" src="vectors/pineapple.svg" />
-
-          {comments}
-
-          <div className="search_footer">
-            <img className="pineapple" src="vectors/pineapple.svg" />
-          </div>
         </main>
       </div>
     );

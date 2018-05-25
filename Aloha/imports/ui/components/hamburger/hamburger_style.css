@@ -28,7 +28,7 @@
     /* General sidebar styles */
     .bm-menu {
       background: #673653;
-      padding: 2.5em 1.5em 2;
+      padding: 2.5em 1.5em 5;
       font-size: 22px;
       font-family: 'Roboto', sans-serif;
       font-weight: bold;
@@ -52,4 +52,7 @@
 
     .menu-item {
       padding: 8px;
+      display: block;
+      align-items: baseline;
+
     }
