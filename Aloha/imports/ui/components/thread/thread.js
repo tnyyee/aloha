@@ -202,7 +202,7 @@ export class Thread extends Component{
               <button type="submit">Skicka</button>
           </form>
 
-<<<<<<< HEAD
+
 
 
           <img className="pineapple" src="vectors/pineapple.svg" />
@@ -220,7 +220,6 @@ export class Thread extends Component{
           <div className="search_footer">
             <img className="pineapple" src="vectors/pineapple.svg" />
           </div>
->>>>>>> 573dc242957851ba9dbe786337a3b589854f9b91
         </main>
       </div>
     );
