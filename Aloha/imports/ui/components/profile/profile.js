@@ -85,8 +85,6 @@ export const Profile = () =>
 
       </section>
 
-      <div className="search_footer">
         <img className="pineapple" src="vectors/pineapple.svg" />
-      </div>
     </main>
   </div>
