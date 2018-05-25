@@ -51,6 +51,7 @@ class App extends Component {
 
     let currentComments = this.props.comments;
 
+
     let tasks = this.props.currentTasks;
 
 
@@ -62,7 +63,7 @@ class App extends Component {
             {/*<Route exact path="/" component={() => <Dashboard points={this.props.points} currentUser={currentUser}/>}/>*/}
               <Route exact path="/" component={() => <Dashboard currentComments={currentComments} currentUser={currentUser}/>}/>
               <Route exact path="/login" component={Login}/>
-              <Route exact path="/profile" component={Profile}/>
+              <Route exact path="/profile" component={() => <Profile currentUser={currentUser}/>}/>
               <Route path="/search" component={Search}/>
               <Route path="/searchresult" component={SearchResult}/>
             {/*<Route path="/thread" component={Thread}/>*/}
@@ -92,9 +93,6 @@ class App extends Component {
 }
 
 export default withTracker(() => {
-  // if (Meteor.user()) {
-  //   let user = getU(Meteor.user());
-  // }
   Meteor.subscribe('comments_publication');
   const handle = Meteor.subscribe();
   return {
