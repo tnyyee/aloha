@@ -173,7 +173,6 @@ export class Thread extends Component{
           <div className="bryt"></div>
           {console.log(comments)}
 
-          this.deleteComment(J2NhKMyvWs6kXWZQd)
 
           {comments.length > 1 ?
             (<div>
