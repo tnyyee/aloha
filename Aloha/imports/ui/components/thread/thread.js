@@ -206,7 +206,7 @@ export class Thread extends Component{
 
 
           <img className="pineapple" src="vectors/pineapple.svg" />
-=======
+
         <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
           <input
             type="text"

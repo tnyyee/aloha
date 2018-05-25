@@ -101,7 +101,7 @@ export class Dashboard extends Component{
           <img className="pineapple" src="vectors/pineapple.svg" />
         </section>
 
-
+        </main>
       </div>
     );
   }
