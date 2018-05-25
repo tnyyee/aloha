@@ -42,7 +42,6 @@ export class Thread extends Component{
     const comments = this.props.currentComments.map(comment => {
       return(
         <div>
-          {/*<p key={this.props.currentUser._id}>{this.props.currentUser.profile.name}</p>*/}
           <p id={comment._id} onClick={this.deleteComment} key={comment._id}>{comment.text}</p>
         </div>
       )
