@@ -48,7 +48,9 @@ export class Dashboard extends Component{
         <Hamburger/>
         <section id="first_section_dashboard" className ="dashboard_section">
           <h1>ALOHA!</h1>
-          <button className="large_button">Alla trådar</button>
+          <Link to="/search">
+            <button className="large_button">Alla trådar</button>
+          </Link>
           <h2>Aktuella trådar</h2>
           <div className="picture-grid">
             <div className="grid-box"><img src="jpg/dashboard/cam_ana_skandal.jpg"/></div>

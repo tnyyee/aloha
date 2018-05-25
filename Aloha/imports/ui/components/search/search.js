@@ -16,7 +16,9 @@ export const Search = () =>
         </div>
 
         <div className="search_wrapper">
-          <button className="search_large_button">Sök</button>
+          <Link to="/searchresult">
+            <button className="search_large_button">Sök</button>
+          </Link>
         </div>
 
         <div className="search_wrapper">
