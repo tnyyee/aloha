@@ -28,9 +28,6 @@ export class Thread extends Component{
     var text = this.refs.comment.value.trim();
     var currentUser = this.props.currentUser.profile.name;
     Meteor.call('addComments', text, currentUser);
-
-
-
     console.log(text);
 
   }
@@ -202,7 +199,10 @@ export class Thread extends Component{
               <button type="submit">Skicka</button>
           </form>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 378063cb06ef513ae9642966c18a8fa3362a3701
 
 
           <img className="pineapple" src="vectors/pineapple.svg" />

@@ -39,7 +39,6 @@ export class Dashboard extends Component{
     return (
       <div id="dashboard_div">
         <Hamburger/>
-        <main id="page-wrap">
         <section id="first_section_dashboard" className ="dashboard_section">
           <h1>ALOHA!</h1>
           <button className="large_button">Alla trådar</button>
@@ -100,8 +99,6 @@ export class Dashboard extends Component{
           <Popup/>
           <img className="pineapple" src="vectors/pineapple.svg" />
         </section>
-
-        </main>
       </div>
     );
   }
