@@ -21,22 +21,20 @@ export class Thread extends Component{
     };
     this.deleteComment = this.deleteComment.bind(this)
   }
+
   addComments(event){
      //Gör så att denna funktion inte körs hela tiden.
     event.preventDefault();
     var text = this.refs.comment.value.trim();
-    var currentUser = this.props.currentUser.profile.name
+    var currentUser = this.props.currentUser.profile.name;
     Meteor.call('addComments', text, currentUser);
-
     console.log(text);
 
   }
+
   deleteComment(event){
 
     Meteor.call('deleteComment', event.target.id);
-  }
-  handleClick() {
-    //window.location = 'http://unnderbar.se/';
   }
 
 
@@ -49,7 +47,6 @@ export class Thread extends Component{
         </div>
       )
     })
-
     return (
 
       <div>
@@ -170,7 +167,29 @@ export class Thread extends Component{
             <img className="comment" src="png/thread/comment_thread.png"/>
           </section>
 
-          <button className="small_button">+</button>
+          {/*Kommentartråden*/}
+
+          <div className="bryt"></div>
+
+          <section className="thread_sections">
+            <img className="thread_people_photo" src="vectors/thread/pineapple.gif"/>
+
+            <div className="grid-container1">
+              <div className="namn">{this.props.currentUser.profile.name}</div>
+              <div className="stad">Umeå Sverige</div>
+            </div>
+
+            <img className="check" src="png/thread/green_check_thread.png"/><br/>
+            <p className="betyg">0</p><br/><br/>
+            <img className="cross" src="png/thread/red_cross_thread.png"/>
+
+            <p className="svar">
+              {comments}
+            </p>
+
+            <img className="like" src="png/thread/like_thread.png"/>
+            <img className="comment" src="png/thread/comment_thread.png"/>
+          </section>
 
           <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
             <input
@@ -180,13 +199,9 @@ export class Thread extends Component{
               <button type="submit">Skicka</button>
           </form>
 
-        <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
-          <input
-            type="text"
-            ref="comment"
-            placeholder="Skriv en kommentar" />
-            <button type="submit">Skicka</button>
-        </form>
+
+
+          <img className="pineapple" src="vectors/pineapple.svg" />
 
           {comments}
 

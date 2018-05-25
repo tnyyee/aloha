@@ -77,7 +77,6 @@
       grid-template-columns: 20% 75% 5%;
       justify-content: center;
       grid-column-gap: 0px;
-      grid-row-gap: 0px;
       margin-bottom: 77px;
       .thread-grid-box{
         margin-bottom: 20px;
@@ -202,11 +201,11 @@
         }
 
       }
+      #id{
+        margin-bottom: 100px;
+      }
     }
   }
   #fifth_section_dashboard{
-    form{
-      margin-bottom: 200px;
-    }
   }
 }
