@@ -114,7 +114,6 @@
     -ms-flex-pack: center;
     justify-content: center;
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
     margin-bottom: 77px; }
     #dashboard_div #second_section_dashboard .thread-grid .thread-grid-box {
       margin-bottom: 20px; }
@@ -223,3 +222,6 @@
       display: block; }
   #dashboard_div #fourth_section_dashboard .outer #id {
     margin-bottom: 100px; }
+
+#dashboard_div #fifth_section_dashboard h2 {
+  margin-bottom: 100px; }
