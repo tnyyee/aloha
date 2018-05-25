@@ -49,7 +49,6 @@ export class Thread extends Component{
         </div>
       )
     })
-
     return (
 
       <div>
@@ -178,7 +177,7 @@ export class Thread extends Component{
             placeholder="Skriv en kommentar" />
             <button type="submit">Skicka</button>
         </form>
-        
+
           {comments}
 
         <img className="pineapple" src="vectors/pineapple.svg" />
