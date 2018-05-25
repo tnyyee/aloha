@@ -199,19 +199,21 @@ export class Thread extends Component{
               <button type="submit">Skicka</button>
           </form>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 378063cb06ef513ae9642966c18a8fa3362a3701
 
 
-          <img className="pineapple" src="vectors/pineapple.svg" />
+
+
+        <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
+          <input
+            type="text"
+            ref="comment"
+            placeholder="Skriv en kommentar" />
+            <button type="submit">Skicka</button>
+        </form>
 
           {comments}
 
-          <div className="search_footer">
-            <img className="pineapple" src="vectors/pineapple.svg" />
-          </div>
+          <img className="pineapple" src="vectors/pineapple.svg" />
         </main>
       </div>
     );
