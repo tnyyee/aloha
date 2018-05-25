@@ -2,14 +2,15 @@ import {withHistory, Link} from 'react-router-dom';
 import React, { Component, PropTypes } from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 import ReactDOM from 'react-dom';
-import Modal from 'react-modal';
+import Modal from 'react-responsive-modal';
 
 import '../../App.js';
 import { Tasks } from '../../../api/tasks.js';
-
 import Hamburger from '../hamburger/hamburger.js';
+import Popup from './popupinfo.js';
+//import Popup from "reactjs-popup";
 
-import Popup from "reactjs-popup";
+
 
 import './style_dashboard.css';
 import '../../../../client/main.css';
@@ -19,15 +20,22 @@ export class Dashboard extends Component{
     super(props);
     this.state = {
       hideCompleted: false,
-
+      open: false
     };
   }
-  handleClick() {
-    window.location = 'http://unnderbar.se/';
-  }
+
+  onOpenModal = () => {
+    this.setState({ open: true });
+  };
+
+  onCloseModal = () => {
+    this.setState({ open: false });
+  };
+
 
   render() {
     console.log(this.props)
+    const { open } = this.state;
     return (
       <div id="dashboard_div">
         <Hamburger/>
@@ -89,47 +97,11 @@ export class Dashboard extends Component{
             <p>Unn Swanström är en inspirerande kvinna som har utsetts till årets
             IT-kvinna 2015...</p>
           </div>
-          <Popup trigger={<button className="small_button">Läs mer</button>}
-            modal
-          >
-            {close => (
-              <div className="outer">
-                <a className="close" onClick={close}>
-                  &times;
-                </a>
-                <div className="content">
-                  <h2>Unn Swanström</h2>
-                  <p>
-                    {" "}
-                    UX designer and meetup organizer who likes tech and horses.
-                    A talkative Swedish vagabond currently based in Stockholm.
-                    IT Woman of the Year 2015. For me being a user experience
-                    designer means I care about making products that work
-                    really, really well. I think technology should work for
-                    people, not the other way around.
-                    <br /><br />
-                    I love being a part of almost every aspect of product
-                    development; from identifying user needs and opportunities,
-                    ideation, facilitation workshops, sketching, wireframing,
-                    prototyping, usability testing, UI design, pair programming
-                    front end to final user feedback. Then going back and doing
-                    it all over in the pursuit of happy users and the dream of
-                    building a something really great. I believe the best
-                    products are made in close nit agile teams.
-                  </p>
-                  //anonym funktion
-                  <button onClick={ () => this.handleClick() } className="large_button">
-                    Portfolio
-                  </button>
-                </div>
-              </div>
-            )}
-          </Popup>
-          </section>
-          <div className="search_footer">
-            <img className="pineapple" src="vectors/pineapple.svg" />
-          </div>
-        </main>
+          <Popup/>
+          <img className="pineapple" src="vectors/pineapple.svg" />
+        </section>
+
+
       </div>
     );
   }

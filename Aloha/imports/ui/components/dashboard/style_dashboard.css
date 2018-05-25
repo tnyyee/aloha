@@ -221,6 +221,5 @@
       margin-top: 30px;
       margin-bottom: 10px;
       display: block; }
-
-#dashboard_div #fifth_section_dashboard form {
-  margin-bottom: 200px; }
+  #dashboard_div #fourth_section_dashboard .outer #id {
+    margin-bottom: 100px; }

@@ -47,7 +47,6 @@ export class Thread extends Component{
         </div>
       )
     })
-
     return (
 
       <div>
