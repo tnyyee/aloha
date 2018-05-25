@@ -100,14 +100,14 @@
         .namn{
           font-size: $p_font_size;
           font-weight: $bold;
-          //float: left;
+          font-family: $p_font_family;
           margin-top: 32px;
         }
 
         .stad{
           font-size: $p_small_font_size;
           font-weight: $regular;
-          //float: left;
+          font-family: $p_font_family;
           padding-top: 5px;
         }
 
@@ -157,6 +157,7 @@
       form{
           margin-top: 40px;
           margin-left: 20%;
+          height: 20px;
         button{
             background-color: white; /* Green */
             border: none;

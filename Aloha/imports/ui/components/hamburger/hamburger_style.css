@@ -32,8 +32,12 @@
       font-size: 22px;
       font-family: 'Roboto', sans-serif;
       font-weight: bold;
-    }
 
+
+    }
+    a#profile.menu-item{
+        width: 100%;
+    }
     /* Morph shape necessary with bubble or elastic */
     .bm-morph-shape {
       fill: #373a47;
@@ -44,6 +48,7 @@
       color: #b8b7ad;
       padding: .0em;
     }
+
 
     /* Styling of overlay */
     .bm-overlay {
