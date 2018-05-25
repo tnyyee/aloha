@@ -175,7 +175,7 @@ export class Thread extends Component{
 
           this.deleteComment(J2NhKMyvWs6kXWZQd)
 
-          {comments.length > 3 ?
+          {comments.length > 1 ?
             (<div>
               <section className="thread_sections">
               <img className="thread_people_photo" src="vectors/thread/pineapple.gif"/>
