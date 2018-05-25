@@ -20,7 +20,6 @@ export class Profile extends Component{
   render() {
 
     let profileName =this.props.currentUser.profile.name;
-    console.log(this.props.currentUser.profile.name);
     let email =this.props.currentUser.profile.email;
 
     return(
@@ -47,6 +46,7 @@ export class Profile extends Component{
 
             <div id="profile_info">
               <p className="profile_info_text">{profileName}</p>
+              <p id="mitten" className="profile_info_text">{email}</p>
               <p id="mitten" className="profile_info_text">lovenberg&#64;gmail.com</p>
               <p id="mitten" className="profile_info_text">lovenberg.com</p>
               <img id="plupp" src="png/profile/red_pin.png" />
