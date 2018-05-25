@@ -2,12 +2,14 @@
 
 @media screen and (max-width: 700px){
 
+    .login{
 
       .login_welcomeText{
         text-align: center;
         font-size: 16px;
         font-family: "Lato", sans-serif;
         font-weight: normal;
+
         margin-left: 32px;
         margin-right: 26px;
         line-height:22px;
@@ -31,8 +33,9 @@
           color:#ffffff;
           letter-spacing:0;
           text-align:center;
-        }
 
+
+        }
         .login-buttons-dropdown-align-{
             text-align: center;
             font-weight: $regular;
@@ -46,16 +49,21 @@
           font-size: 20px;
           font-family: "Lato", sans-serif;
           font-weight: normal;
+
           background-color: $primary-purple;
           border:1px solid $white;
           color: $white;
           border-radius:9px;
           width:273px;
           height:52px;
+
+
           color:#ffffff;
           letter-spacing:0;
-        }
 
+
+
+        }
         .login_facebook_img{
           margin-top: auto;
           margin-left: 11px;
@@ -63,7 +71,6 @@
           width: 11px;
           height: 21px;
         }
-
         .login_button_divider{
           height: 15px;
         }
@@ -84,23 +91,23 @@
         #login-dropdown-list{
           background-color: $primary-purple;
         }
-
         .login-close-text,.or-text, #login-username-label,
-        #login-password-label, #signup-link{
+        #login-password-label, #signup-link
+        {
           font-size: 16px;
           font-family: "Lato", sans-serif;
           font-weight: normal;
           color: $white;
-        }
 
+        }
         #login-buttons-github, #login-buttons-password, #login-buttons-logout {
           background-color: $primary-green;
 
         }
-        .search_footer{
+        .login-link-and-dropdown-list login-form-sign-in{
           position: absolute;
-          margin-bottom: 10px;
-          width: 100%;
+          align-content: center;
         }
 
+    }
   }
