@@ -30,7 +30,7 @@ export class Profile extends Component{
 
             <h2 id="rubrik_profile">{profileName}</h2>
 
-            <img id="profilbild_profile" src="png/profile/person1_profile.png" />
+            <img id="profilbild_profile" src="vectors/thread/pineapple.gif" />
 
             <div className="grid-container_profile1">
 

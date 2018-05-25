@@ -91,9 +91,14 @@
     font-family: "Lato", sans-serif; }
   #first_profile_section #profilbild_profile {
     float: left;
-    margin-left: 32px;
-    margin-top: 20px;
-    margin-bottom: 10px; }
+    margin-left: 48px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 63px;
+    height: 63px;
+    margin-top: 19px; }
   #first_profile_section .small_button_profile {
     font-size: 14px;
     border: 1px solid #ffffff;
