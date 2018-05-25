@@ -5,47 +5,56 @@ $break-small: 700px;
 
   .search{
 
-    .search_wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    #page-wrap {
 
-      .search_large_button{
-        text-align: center;
-        background-color: $primary-purple;
-        color: $white;
-        border:1px solid $white;
-        border-radius: $radius_big;
-        font-size:$button_big_font_size;
-        font-weight: $regular;
-        width:273px;
-        height:52px;
-        margin-top: 83px;
+      margin-top: 70px;
+
+      #h2 {
+        padding-top: 50px;
       }
-    }
 
-    .search_wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 200px;
-      margin-left: 50px;
-      margin-right: 50px;
+      .search_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-      p{
-        text-align: center;
-        margin: 0px;
-        margin-top: -10px;
-        font-family: $p_font_family;
-        font-size: $p_font_size;
-        font-weight: $thin;
+        .search_large_button{
+          text-align: center;
+          background-color: $primary-purple;
+          color: $white;
+          border:1px solid $white;
+          border-radius: $radius_big;
+          font-size:$button_big_font_size;
+          font-weight: $regular;
+          width:273px;
+          height:52px;
+          margin-top: 83px;
+        }
       }
-    }
 
-    .search_footer{
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      .search_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        p{
+          text-align: center;
+          margin: 0px;
+          margin-top: -10px;
+          font-family: $p_font_family;
+          font-size: $p_font_size;
+          font-weight: $thin;
+        }
+      }
+
+      .search_footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
     }
   }
 }

@@ -48,48 +48,52 @@
       margin-left: -15px; } }
 
 @media screen and (max-width: 700px) {
-  .search .search_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .search .search_wrapper .search_large_button {
-      text-align: center;
-      background-color: #311631;
-      color: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 9px;
-      font-size: 20px;
-      font-weight: 400;
-      width: 273px;
-      height: 52px;
-      margin-top: 83px; }
-  .search .search_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 200px;
-    margin-left: 50px;
-    margin-right: 50px; }
-    .search .search_wrapper p {
-      text-align: center;
-      margin: 0px;
-      margin-top: -10px;
-      font-family: "Lato", sans-serif;
-      font-size: 16px;
-      font-weight: 100; }
-  .search .search_footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%; } }
+  .search #page-wrap {
+    margin-top: 70px; }
+    .search #page-wrap #h2 {
+      padding-top: 50px; }
+    .search #page-wrap .search_wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .search #page-wrap .search_wrapper .search_large_button {
+        text-align: center;
+        background-color: #311631;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 9px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 273px;
+        height: 52px;
+        margin-top: 83px; }
+    .search #page-wrap .search_wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 200px;
+      margin-left: 50px;
+      margin-right: 50px; }
+      .search #page-wrap .search_wrapper p {
+        text-align: center;
+        margin: 0px;
+        margin-top: -10px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 100; }
+    .search #page-wrap .search_footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%; } }

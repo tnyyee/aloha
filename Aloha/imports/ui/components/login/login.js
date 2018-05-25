@@ -24,52 +24,43 @@ class Login extends React.Component{
   render() {
     return (
       <div className="login">
-      <div className="container">
+      <main id="page-wrap">
+          <div className="container">
 
-          <h1>ALOHA!</h1>
+              <h1>ALOHA!</h1>
 
-          <p id="welcomeText">
-          Välkommen till en app som riktar sig till kvinnor,
-          men där vem som helst kan skapa ett konto och vara aktiv i diskutioner.
-          <br></br>
-          <br></br>
-          Här kan du diskutera, jämnföra, dela och inspereras av
-          kvinnor i hela världen.
-          </p>
+                <p id="welcomeText" className="login_welcomeText">
+                Välkommen till en app som riktar sig till kvinnor,
+                men där vem som helst kan skapa ett konto och vara aktiv i diskussioner.
+                <br></br>
+                <br></br>
+                Här kan du diskutera, jämföra, dela och inspereras av
+                kvinnor i hela världen.
+                </p>
 
+          </div>
 
-      </div>
+          <div className="login_frontpage_buttons">
 
-      {/*
-        <h2>{ this.props.email ?
-         this.props.email : ''}</h2>
-      */}
+            <button className="user_button"><h3><AccountsUIWrapper /></h3></button>
 
-      <div className="login_frontpage_buttons">
+            <div className="login_button_divider"/>
 
-        <button className="user_button"><h3><AccountsUIWrapper /></h3></button>
+            <button className="facebook_button">
+              <img className= "login_facebook_img" src="vectors/login/facebook_f.png"/>
+              Logga in med Facebook
+            </button>
 
-        <div className="login_button_divider"/>
+            <h4 id="signUp_text">
+            Registrera dig
+            </h4>
 
-        <button className="facebook_button">
-          <img className= "login_facebook_img" src="vectors/login/facebook_f.png"/>
-          Logga in med Facebook
-        </button>
+          </div>
 
-        <h4 id="signUp_text">
-        Registrera dig
-        </h4>
-
-      </div>
-
-      {
-        // this.props.currentUser ?
-      //   // <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
-      //   // </form> : ''
-      }
-
-      <img className= "pineapple" src="vectors/pineapple.svg"/>
-
+          <div className="search_footer">
+            <img className="pineapple" src="vectors/pineapple.svg" />
+          </div>
+        </main>
       </div>
     );
   }

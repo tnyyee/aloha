@@ -58,9 +58,10 @@
     margin-left: -15px;
     margin-top: 100px;
     margin-bottom: 30px; }
-  #first_profile_section .rubrik_profile {
+  #first_profile_section #rubrik_profile {
+    margin-top: 70px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     font-family: "Roboto", sans-serif; }
   #first_profile_section .tradantal {
     grid-area: tradantal; }
@@ -75,20 +76,24 @@
   #first_profile_section .foljer {
     grid-area: foljer; }
   #first_profile_section .grid-container_profile1 {
-    display: grid;
+    margin-top: 25px;
+    grid-gap: 0px 25px;
+    padding: 0px;
+    grid-template-rows: 25px;
     margin-left: 40px;
     grid-template-areas: ' tradantal tusen antalfoljer' ' tradar foljare foljer' ' tradar foljare foljer'; }
-  #first_profile_section .tradar, #first_profile_section .foljare, #first_profile_section .foljer {
-    font-weight: 300;
-    font-family: "Lato", sans-serif; }
   #first_profile_section .tradantal, #first_profile_section .trefyra, #first_profile_section .antalfoljer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     padding-top: -20px; }
+  #first_profile_section .tradar, #first_profile_section .foljare, #first_profile_section .foljer {
+    font-weight: 300;
+    font-family: "Lato", sans-serif; }
   #first_profile_section #profilbild_profile {
     float: left;
-    margin-left: 20px;
-    margin-top: 200px; }
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px; }
   #first_profile_section .small_button_profile {
     font-size: 14px;
     border: 1px solid #ffffff;
@@ -100,15 +105,16 @@
     height: 21px;
     color: #ffffff;
     display: block;
-    margin-left: 28px;
-    margin-top: -40px;
+    margin-left: 40px;
     margin-bottom: 30px;
     clear: both; }
-  #first_profile_section #profile_info .profile_info_text {
-    margin-left: 28px;
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 300; }
+  #first_profile_section #profile_info {
+    margin-left: 10px; }
+    #first_profile_section #profile_info .profile_info_text {
+      margin-left: 28px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: 300; }
   #first_profile_section #sthlm {
     float: left;
     margin-left: 10px;
@@ -116,8 +122,8 @@
     font-size: 16px;
     font-weight: 300; }
   #first_profile_section #mitten {
-    margin-top: 3px;
-    margin-bottom: 3px; }
+    margin-top: 2px;
+    margin-bottom: 2px; }
   #first_profile_section #plupp {
     margin-top: 15px;
     margin-left: 28px;

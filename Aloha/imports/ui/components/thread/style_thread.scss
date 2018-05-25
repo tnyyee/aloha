@@ -2,7 +2,9 @@
 
 @media screen and (max-width: $break-small){
 
+  #page-wrap {
 
+    margin-top: 70px;
 
       .small_button{
         font-size: $p_small_font_size;
@@ -153,18 +155,27 @@
         margin-bottom: 600px;
       }
       form{
+          margin-top: 40px;
+          margin-left: 20%;
         button{
             background-color: white; /* Green */
             border: none;
+            border-radius: 3px;
             color: $primary-purple;
-            padding: 20px;
+            padding: 3px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            margin: 4px 2px;
+            margin: 4px 2px 2px 10px;
+            clear: both;
             cursor: pointer;
       }
     }
-
+    .search_footer{
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+  }
 }

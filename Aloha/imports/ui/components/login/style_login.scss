@@ -2,12 +2,12 @@
 
 @media screen and (max-width: 700px){
 
-    .login{
 
-      #welcomeText{
-        font-size: $p_font_size;
-        font-weight: $light;
+      .login_welcomeText{
         text-align: center;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: normal;
         margin-left: 32px;
         margin-right: 26px;
         line-height:22px;
@@ -31,9 +31,8 @@
           color:#ffffff;
           letter-spacing:0;
           text-align:center;
-
-
         }
+
         .login-buttons-dropdown-align-{
             text-align: center;
             font-weight: $regular;
@@ -43,24 +42,20 @@
         }
 
         .facebook_button{
-          font-size:$button_big_font_size;
+          text-align: center;
+          font-size: 20px;
+          font-family: "Lato", sans-serif;
+          font-weight: normal;
           background-color: $primary-purple;
           border:1px solid $white;
-          font-weight: $regular;
-          font-size:$button_big_font_size;
           color: $white;
           border-radius:9px;
           width:273px;
           height:52px;
-
-          font-family:Lato-Regular;
-          font-size:20px;
           color:#ffffff;
           letter-spacing:0;
-          text-align:center;
-
-
         }
+
         .login_facebook_img{
           margin-top: auto;
           margin-left: 11px;
@@ -68,11 +63,16 @@
           width: 11px;
           height: 21px;
         }
+
         .login_button_divider{
           height: 15px;
         }
 
         #signUp_text{
+          text-align: center;
+          font-size: 20px;
+          font-family: "Lato", sans-serif;
+          font-weight: normal;
           color: $primary-green;
           height: auto;
         }
@@ -84,17 +84,23 @@
         #login-dropdown-list{
           background-color: $primary-purple;
         }
+
         .login-close-text,.or-text, #login-username-label,
-        #login-password-label, #signup-link
-        {
+        #login-password-label, #signup-link{
+          font-size: 16px;
+          font-family: "Lato", sans-serif;
+          font-weight: normal;
           color: $white;
-          font-family:Lato-Regular;
-          font-size:16px;
         }
+
         #login-buttons-github, #login-buttons-password, #login-buttons-logout {
           background-color: $primary-green;
 
         }
+        .search_footer{
+          position: absolute;
+          bottom: 0px;
+          width: 100%;
+        }
 
-    }
   }
