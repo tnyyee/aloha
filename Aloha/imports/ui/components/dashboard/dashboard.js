@@ -8,6 +8,7 @@ import '../../App.js';
 import { Tasks } from '../../../api/tasks.js';
 import Hamburger from '../hamburger/hamburger.js';
 import Popup from './popupinfo.js';
+import ReactVote from 'react-vote';
 //import Popup from "reactjs-popup";
 
 
@@ -98,6 +99,12 @@ export class Dashboard extends Component{
           </div>
           <Popup/>
           <img className="pineapple" src="vectors/pineapple.svg" />
+        </section>
+        <div className="page_break"></div>
+        <section id="fifth_section_dashboard" className ="dashboard_section">
+          <h2>Veckans omröstning</h2>
+
+
         </section>
       </div>
     );

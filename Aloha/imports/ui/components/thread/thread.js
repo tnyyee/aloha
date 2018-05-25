@@ -49,6 +49,7 @@ export class Thread extends Component{
     })
     return (
 
+
       <div>
         <Hamburger/>
         <main id="page-wrap">
@@ -170,41 +171,32 @@ export class Thread extends Component{
           {/*Kommentartråden*/}
 
           <div className="bryt"></div>
+          {console.log(comments)}
 
-          {comments.length > 0 ?
-             (<div>
-            <section className="thread_sections">
-            <img className="thread_people_photo" src="vectors/thread/pineapple.gif"/>
+          {comments.length > 1 ?
+            (<div>
+              <section className="thread_sections">
+              <img className="thread_people_photo" src="vectors/thread/pineapple.gif"/>
 
-            <div className="grid-container1">
-              <div className="namn">{this.props.currentUser.profile.name}</div>
-              <div className="stad">Umeå Sverige</div>
-            </div>
+              <div className="grid-container1">
+                <div className="namn">{this.props.currentUser.profile.name}</div>
+                <div className="stad">Umeå Sverige</div>
+              </div>
 
-            <img className="check" src="png/thread/green_check_thread.png"/><br/>
-            <p className="betyg">0</p><br/><br/>
-            <img className="cross" src="png/thread/red_cross_thread.png"/>
+              <img className="check" src="png/thread/green_check_thread.png"/><br/>
+              <p className="betyg">0</p><br/><br/>
+              <img className="cross" src="png/thread/red_cross_thread.png"/>
 
-            <p className="svar">
-              {comments}
-            </p>
+              <p className="svar">
+                {comments}
+              </p>
 
-            <img className="like" src="png/thread/like_thread.png"/>
-            <img className="comment" src="png/thread/comment_thread.png"/>
-          </section>
+              <img className="like" src="png/thread/like_thread.png"/>
+              <img className="comment" src="png/thread/comment_thread.png"/>
+            </section>
           </div>
         )
         : ''}
-        <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
-          <input
-            type="text"
-            ref="comment"
-            placeholder="Skriv en kommentar" />
-            <button type="submit">Skicka</button>
-        </form>
-
-
-
 
         <form className="new-resolution" onSubmit={this.addComments.bind(this)}>
           <input
