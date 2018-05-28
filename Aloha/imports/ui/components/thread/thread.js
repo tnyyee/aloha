@@ -41,9 +41,9 @@ export class Thread extends Component{
   render() {
     const comments = this.props.currentComments.map(comment => {
       return(
-        <div>
-          <p id={comment._id} onClick={this.deleteComment} key={comment._id}>{comment.text}</p>
-        </div>
+
+          <p className="svar" id={comment._id} onClick={this.deleteComment} key={comment._id}>{comment.text}</p>
+
       )
     })
     return (
@@ -187,9 +187,7 @@ export class Thread extends Component{
               <p className="betyg">0</p><br/><br/>
               <img className="cross" src="png/thread/red_cross_thread.png"/>
 
-              <p className="svar">
                 {comments}
-              </p>
 
               <img className="like" src="png/thread/like_thread.png"/>
               <img className="comment" src="png/thread/comment_thread.png"/>

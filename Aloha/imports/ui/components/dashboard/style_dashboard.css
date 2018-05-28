@@ -81,12 +81,12 @@
     margin-left: 16px;
     margin-right: 16px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: 50% 50%;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     margin-bottom: 77px; }
     #dashboard_div #first_section_dashboard .picture-grid .grid-box img {
       width: 100%; }

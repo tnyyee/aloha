@@ -13,6 +13,7 @@ import ReactVote from 'react-vote';
 
 
 
+
 import './style_dashboard.css';
 import '../../../../client/main.css';
 
@@ -33,6 +34,11 @@ export class Dashboard extends Component{
     this.setState({ open: false });
   };
 
+  onCreate (data, diff) {
+    // Save data into the  databasehere!
+   console.log(data); // { title: 'title of this vote', items: [{ title: 'option1', count: 5, voters: ['a', 'b', 'c', 'd', 'e'] }, { title: 'option2', count: 3, voters: ['f', 'g', 'h'] }], closed: false, multiple: false, expansion: false, voters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'] }
+  }
+
 
   render() {
     console.log(this.props)
@@ -42,7 +48,9 @@ export class Dashboard extends Component{
         <Hamburger/>
         <section id="first_section_dashboard" className ="dashboard_section">
           <h1>ALOHA!</h1>
-          <button className="large_button">Alla trådar</button>
+          <Link to="/search">
+            <button className="large_button">Alla trådar</button>
+          </Link>
           <h2>Aktuella trådar</h2>
           <div className="picture-grid">
             <div className="grid-box"><img src="jpg/dashboard/cam_ana_skandal.jpg"/></div>
@@ -100,12 +108,10 @@ export class Dashboard extends Component{
           <Popup/>
           <img className="pineapple" src="vectors/pineapple.svg" />
         </section>
-        <div className="page_break"></div>
+        {/*<div className="page_break"></div>
         <section id="fifth_section_dashboard" className ="dashboard_section">
           <h2>Veckans omröstning</h2>
-
-
-        </section>
+        </section>*/}
       </div>
     );
   }
